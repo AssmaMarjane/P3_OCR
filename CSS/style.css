@@ -1,0 +1,85 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header
+{
+    background-color: aquamarine;
+}
+
+header h1
+{
+    color: yellow;
+    text-align: center;
+}
+#partieHaut 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#partieBas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#blocRose
+{
+    background-color: pink;
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    width: 20%;
+    height: 80%;
+    text-align: center;
+}
+#blocViolet
+{
+    background-color: violet;
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    width: 20%;
+    height: 80%;
+    text-align: center;
+
+}
+#blocBleu
+{
+    background-color: lightblue;
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    width: 20%;
+    height: 80%;
+    text-align: center;
+
+}
+#blocVert
+{
+    background-color: lightgreen;
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    width: 20%;
+    height: 80%;
+    text-align: center;
+
+}
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    background-color: aquamarine;
+    border-radius: 20%;
+
+}
+nav p
+{
+    text-align: center;
+    color: yellow;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aquamarine;
+    color: yellow;
+}
