@@ -6,7 +6,7 @@ body
 
 header
 {
-    background-color: aquamarine;
+    background-color: rgb(26, 126, 79);;
 }
 
 header h1
@@ -30,8 +30,6 @@ header h1
 {
     background-color: pink;
     border: 3px solid rgba(128, 128, 128, 0.089);
-    width: 20%;
-    height: 80%;
     text-align: center;
 }
 #blocRose i
@@ -42,8 +40,6 @@ header h1
 {
     background-color: violet;
     border: 3px solid rgba(128, 128, 128, 0.089);
-    width: 20%;
-    height: 80%;
     text-align: center;
 
 }
@@ -51,26 +47,21 @@ header h1
 {
     background-color: lightblue;
     border: 3px solid rgba(128, 128, 128, 0.089);
-    width: 20%;
-    height: 80%;
     text-align: center;
 
 }
 #blocVert
 {
-    background-color: lightgreen;
+    background-color: rgb(26, 126, 79);
     border: 3px solid rgba(128, 128, 128, 0.089);
-    width: 20%;
-    height: 80%;
     text-align: center;
 
 }
 nav 
 {
-    display: flex;
-    justify-content: space-around;
-    width: 30%;
-    background-color: aquamarine;
+    width: 20%;
+    margin: auto;
+    background-color: rgb(26, 126, 79);;
     border-radius: 20%;
 
 }
@@ -84,6 +75,12 @@ footer
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+    width: 94%;
+    background-color: rgb(26, 126, 79);;
     color: yellow;
+    padding-left: 2%;
+    padding-right: 2%;
+
 }
