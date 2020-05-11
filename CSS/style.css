@@ -99,3 +99,30 @@ footer a
 {
     color: yellow;
 }
+#partie_MenuGauche
+{
+    display: flex;
+    flex-direction: column;
+}
+#partie_MenuDroite
+{
+    display: flex;
+    flex-direction: column;
+
+}
+#item_menuRose img
+{
+    width: 40%;
+}
+#item_menuBleu img
+{
+    width: 40%;
+}
+#item_menuViolet img
+{
+    width: 40%;
+}
+#item_menuVert img
+{
+    width: 40%;
+}
