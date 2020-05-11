@@ -23,6 +23,24 @@ main a:hover
     opacity: 0.5;
     zoom: 2;
 }
+main
+{
+    display: flex;
+    flex-direction: row;
+}
+#partieGauche
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#partieDroite
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
 
 #blocRose
 {
@@ -74,8 +92,10 @@ footer
     justify-content: space-between;
     width: 96%;
     background-color: rgb(26, 126, 79);;
-    color: yellow;
     padding-left: 2%;
     padding-right: 2%;
-
+}
+footer a
+{
+    color: yellow;
 }
