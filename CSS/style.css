@@ -4,14 +4,14 @@ body
     flex-direction: column;
 }
 
-header
+header, nav, footer, footer a
 {
-    background-color: rgb(26, 126, 79);;
+    background-color: rgb(26, 126, 79);
+    color: yellow;
 }
 
-header h1
+header h1, nav p
 {
-    color: yellow;
     text-align: center;
 }
 a
@@ -28,25 +28,15 @@ main
     display: flex;
     flex-direction: row;
 }
-#partieGauche
+.item_style
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-#partieDroite
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    text-align: center;
 
 }
-
 #blocRose
 {
     background-color: pink;
-    border: 3px solid rgba(128, 128, 128, 0.089);
-    text-align: center;
 }
 #blocRose i
 {
@@ -55,35 +45,23 @@ main
 #blocViolet
 {
     background-color: violet;
-    border: 3px solid rgba(128, 128, 128, 0.089);
-    text-align: center;
 
 }
 #blocBleu
 {
     background-color: lightblue;
-    border: 3px solid rgba(128, 128, 128, 0.089);
-    text-align: center;
 
 }
 #blocVert
 {
     background-color: rgb(26, 126, 79);
-    border: 3px solid rgba(128, 128, 128, 0.089);
-    text-align: center;
 
 }
 nav 
 {
     width: 20%;
-    background-color: rgb(26, 126, 79);;
     border-radius: 20%;
 
-}
-nav p
-{
-    text-align: center;
-    color: yellow;
 }
 footer
 {
@@ -91,38 +69,6 @@ footer
     flex-direction: row;
     justify-content: space-between;
     width: 96%;
-    background-color: rgb(26, 126, 79);;
     padding-left: 2%;
     padding-right: 2%;
-}
-footer a
-{
-    color: yellow;
-}
-#partie_MenuGauche
-{
-    display: flex;
-    flex-direction: column;
-}
-#partie_MenuDroite
-{
-    display: flex;
-    flex-direction: column;
-
-}
-#item_menuRose img
-{
-    width: 40%;
-}
-#item_menuBleu img
-{
-    width: 40%;
-}
-#item_menuViolet img
-{
-    width: 40%;
-}
-#item_menuVert img
-{
-    width: 40%;
 }
