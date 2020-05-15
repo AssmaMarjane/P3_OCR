@@ -23,7 +23,7 @@ main a:hover
     opacity: 0.5;
     zoom: 2;
 }
-main
+main, footer
 {
     display: flex;
     flex-direction: row;
@@ -65,8 +65,7 @@ nav
 }
 footer
 {
-    display: flex;
-    flex-direction: row;
+
     justify-content: space-between;
     width: 96%;
     padding-left: 2%;
