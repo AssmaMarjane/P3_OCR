@@ -1,0 +1,19 @@
+{
+  "name": "projet_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass":"sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssmaMarjane/P3_OCR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssmaMarjane/P3_OCR/issues"
+  },
+  "homepage": "https://github.com/AssmaMarjane/P3_OCR#readme"
+}
