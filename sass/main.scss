@@ -1,0 +1,87 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+nav, footer, footer a
+{
+    background-color: rgb(26, 126, 79);
+    color: yellow;
+}
+header
+{
+    background-color: rgb(26, 126, 79);
+    color: yellow;
+    h1{
+        text-align: center;
+    }
+}
+nav p
+{
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+.item_style:hover
+{
+    opacity: 0.7;
+    zoom: 1.2;
+}
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+
+}
+.item_style
+{
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    text-align: center;
+    height: 131px;
+    width: 30%;
+    margin: 2%;
+}
+#blocRose
+{
+    background-color: pink;
+}
+#blocRose i
+{
+    color: black 3px solid;
+}
+#blocViolet
+{
+    background-color: violet;
+
+}
+#blocBleu
+{
+    background-color: lightblue;
+
+}
+#blocVert
+{
+    background-color: rgb(26, 126, 79);
+
+}
+nav 
+{
+    align-self: center;
+    width: 20%;
+    border-radius: 20%;
+    margin: 2%;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
