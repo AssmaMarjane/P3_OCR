@@ -1,0 +1,72 @@
+@mixin headfoot_rules {
+    background-color: $color_background_headfoot;
+    color: $color_text_headfoot;
+
+}
+
+
+@mixin footer_rules {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@mixin home_rules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+    
+}
+
+@mixin item_rules {
+    border: 3px solid rgba(128, 128, 128, 0.089);
+    text-align: center;
+    height: 131px;
+    width: 30%;
+    margin: 2%;
+}
+
+@mixin nav_home {
+    align-self: center;
+    width: 20%;
+    border-radius: 20%;
+    margin: 2%;
+}
+
+@mixin page_rules {
+    
+}
+
+@mixin title_restaurant {
+    text-align: center;
+    font-size: large si position haut medium si position bas
+}
+
+@mixin title_food {
+    text-align: center;
+    border-bottom: medium;
+    
+}
+
+@mixin food_menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@mixin link_home {
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+
+@mixin link_menu {
+    opacity: 0.7;
+    zoom: 1.2;
+
+}
