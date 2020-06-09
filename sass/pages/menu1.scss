@@ -1,0 +1,11 @@
+@import "../utils/variables" ;
+@import "../utils/mixins"
+
+header
+{
+    background-color: rgb(26, 126, 79);
+    color: yellow;
+    h1{
+        text-align: center;
+    }
+}

@@ -70,3 +70,25 @@
     zoom: 1.2;
 
 }
+
+@mixin main_page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   // s'applique au body penser a mettre toutes les pages sous forme de block avec page menu 1 en exemple
+    
+}
+
+@mixin bloc_card_menu {
+    border: 3px solid black;
+    text-align: center;
+    width: 70%;
+    margin: 15%;
+}
+
+@mixin list_menu_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    //pour les carte des menus avec plat face a prix
+}
