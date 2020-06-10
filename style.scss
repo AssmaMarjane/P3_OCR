@@ -1,0 +1,19 @@
+@import "../sass/utils/variables";
+@import "../sass/utils/mixins";
+
+header
+{
+    @include headfoot_rules
+}
+
+footer
+{
+    @include headfoot_rules ;
+    @include footer_rules
+}
+
+.bloc_card_menu
+{
+    @include bloc_card_menu
+}
+
