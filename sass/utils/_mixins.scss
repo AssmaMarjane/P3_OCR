@@ -4,7 +4,6 @@
 
 }
 
-
 @mixin footer_rules {
     display: flex;
     flex-direction: row;
@@ -22,7 +21,7 @@
     
 }
 
-@mixin item_rules {
+@mixin item_home_rules {
     border: 3px solid rgba(128, 128, 128, 0.089);
     text-align: center;
     height: 131px;
@@ -37,56 +36,44 @@
     margin: 2%;
 }
 
-@mixin page_rules {
-    
-}
-
-@mixin title_restaurant {
-    text-align: center;
-    font-size: large si position haut medium si position bas
-}
-
-@mixin title_food {
-    text-align: center;
-    border-bottom: medium;
-    
-}
-
-@mixin food_menu {
-    display: flex;
-    flex-direction: row;
-    
-}
-
 @mixin link_home {
     text-decoration: none;
     text-align: center;
-
-    
 }
-
-@mixin link_menu {
+@mixin link_item_home {
     opacity: 0.7;
     zoom: 1.2;
-
 }
 
-@mixin main_page {
+@mixin page_rules {
     display: flex;
     flex-direction: column;
-    text-align: center;
-   // s'applique au body penser a mettre toutes les pages sous forme de block avec page menu 1 en exemple
-    
+    text-align: center;  
 }
 
 @mixin bloc_card_menu {
-    border: 3px solid black;
+    border: 7px solid black;
     text-align: center;
     width: 70%;
     margin: 15%;
 }
 
-@mixin list_menu_card {
+@mixin card_titleh1_top { 
+    text-align: center;
+    font-size: large ;
+}
+
+@mixin card_titleh3_bottom { 
+    text-align: center;
+    font-size:  medium;
+}
+
+@mixin list_titleh2-border { 
+    text-align: center;
+    border-bottom: medium;  
+}
+
+@mixin list_text_menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
