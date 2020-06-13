@@ -1,18 +1,31 @@
+@import "../sass/utils/variables";
+@import "../sass/utils/mixins";
+
+header
+{
+    @include headfoot_rules ;
+}
+
+footer
+{
+    @include headfoot_rules ;
+    @include footer_rules ;
+}
+
 body
 {
     display: flex;
     flex-direction: column;
 }
 
-nav, footer, footer a
+nav, footer a
 {
     background-color: rgb(26, 126, 79);
     color: yellow;
 }
 header
 {
-    background-color: rgb(26, 126, 79);
-    color: yellow;
+
     h1{
         text-align: center;
     }
