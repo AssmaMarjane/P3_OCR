@@ -12,7 +12,7 @@ footer
     @include footer_rules ;
 }
 
-body
+#homeBody
 {
     @include home_rules
 }
@@ -74,4 +74,52 @@ main
 nav 
 {
     @include nav_home
+}
+
+.page_menu
+{
+    @include page_rules ; 
+}
+
+
+#bloc_card_menu1
+{
+    @include bloc_card_menu ;
+    background-color: $color_background_menu1;
+    //ajout police
+}
+#bloc_card_menu2
+{
+    @include bloc_card_menu ;
+    background-color: $color_background_menu2;
+    //ajout police
+}
+#bloc_card_menu3
+{
+    @include bloc_card_menu ;
+    background-color: $color_background_menu3;
+    //ajout police
+}
+#bloc_card_menu4
+{
+    @include bloc_card_menu ;
+    background-color: $color_background_menu4;
+    //ajout police
+}
+
+#bloc_card_menu h1
+{
+   @include card_titleh1_top ;
+}
+#bloc_card_menu h3
+{
+    @include card_titleh3_bottom 
+}
+#bloc_card_menu h2
+{
+    @include list_titleh2-border
+}
+li
+{
+    @include list_text_menu;
 }

@@ -14,7 +14,7 @@ footer {
   padding-right: 2%;
 }
 
-body {
+#homeBody {
   display: flex;
   flex-direction: column;
 }
@@ -81,6 +81,65 @@ nav {
   width: 20%;
   border-radius: 20%;
   margin: 2%;
+}
+
+.page_menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#bloc_card_menu1 {
+  border: 7px solid black;
+  text-align: center;
+  width: 70%;
+  margin: 15%;
+  background-color: #fcdfdb;
+}
+
+#bloc_card_menu2 {
+  border: 7px solid black;
+  text-align: center;
+  width: 70%;
+  margin: 15%;
+  background-color: #fff5fe;
+}
+
+#bloc_card_menu3 {
+  border: 7px solid black;
+  text-align: center;
+  width: 70%;
+  margin: 15%;
+  background-color: #f9f9f9;
+}
+
+#bloc_card_menu4 {
+  border: 7px solid black;
+  text-align: center;
+  width: 70%;
+  margin: 15%;
+  background-color: #fdfffd;
+}
+
+#bloc_card_menu h1 {
+  text-align: center;
+  font-size: large;
+}
+
+#bloc_card_menu h3 {
+  text-align: center;
+  font-size: medium;
+}
+
+#bloc_card_menu h2 {
+  text-align: center;
+  border-bottom: medium;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
