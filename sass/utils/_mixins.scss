@@ -13,12 +13,17 @@
     padding-right: 2%;
 }
 
-@mixin home_rules {
+@mixin main_rules {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 2%;
     
+}
+
+@mixin home_rules {
+    display: flex;
+    flex-direction: column;
 }
 
 @mixin item_home_rules {

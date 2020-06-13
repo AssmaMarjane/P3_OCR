@@ -14,14 +14,12 @@ footer
 
 body
 {
-    display: flex;
-    flex-direction: column;
+    @include home_rules
 }
 
 nav, footer a
 {
-    background-color: rgb(26, 126, 79);
-    color: yellow;
+    @include headfoot_rules ;
 }
 header
 {
@@ -40,28 +38,19 @@ a
 }
 .item_style:hover
 {
-    opacity: 0.7;
-    zoom: 1.2;
+@include link_item_home
 }
 main
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 2%;
-
+    @include main_rules
 }
 .item_style
 {
-    border: 3px solid rgba(128, 128, 128, 0.089);
-    text-align: center;
-    height: 131px;
-    width: 30%;
-    margin: 2%;
+    @include item_home_rules
 }
 #blocRose
 {
-    background-color: pink;
+    background-color: $color_background_menu1;
 }
 #blocRose i
 {
@@ -69,32 +58,20 @@ main
 }
 #blocViolet
 {
-    background-color: violet;
+    background-color: $color_background_menu2;
 
 }
 #blocBleu
 {
-    background-color: lightblue;
+    background-color: $color_background_menu3;
 
 }
 #blocVert
 {
-    background-color: rgb(26, 126, 79);
+    background-color: $color_background_menu4;
 
 }
 nav 
 {
-    align-self: center;
-    width: 20%;
-    border-radius: 20%;
-    margin: 2%;
-}
-footer
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    @include nav_home
 }
