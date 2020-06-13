@@ -1,11 +1,11 @@
 header {
-  background-color: 579c87;
-  color: fdcb46;
+  background-color: #579c87;
+  color: #fdcb46;
 }
 
 footer {
-  background-color: 579c87;
-  color: fdcb46;
+  background-color: #579c87;
+  color: #fdcb46;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -20,8 +20,8 @@ body {
 }
 
 nav, footer a {
-  background-color: 579c87;
-  color: fdcb46;
+  background-color: #579c87;
+  color: #fdcb46;
 }
 
 header h1 {
@@ -57,7 +57,7 @@ main {
 }
 
 #blocRose {
-  background-color: fcdfdb;
+  background-color: #fcdfdb;
 }
 
 #blocRose i {
@@ -65,15 +65,15 @@ main {
 }
 
 #blocViolet {
-  background-color: fff5fe;
+  background-color: #fff5fe;
 }
 
 #blocBleu {
-  background-color: f9f9f9;
+  background-color: #f9f9f9;
 }
 
 #blocVert {
-  background-color: fdfffd;
+  background-color: #fdfffd;
 }
 
 nav {
