@@ -14,15 +14,15 @@ footer
 {
     @include headfoot_rules ;
     @include footer_rules ;
+    a{
+        @include headfoot_rules ;
+        @include link_home;
+    }
 }
 
 #homeBody
 {
     @include home_rules ;
-
-    a{
-        @include link_home ; 
-    }
 }
 main
 {
@@ -43,6 +43,9 @@ nav
     @include item_home_rules ;
     :hover{
         @include link_item_home ;
+    }
+    a{
+        @include link_home ;
     }
 }
 
@@ -112,13 +115,18 @@ nav
 }
 #bloc_card_menu h3
 {
-    @include card_titleh3_bottom 
+    @include card_titleh3_bottom ;
 }
 #bloc_card_menu h2
 {
-    @include list_titleh2-border
+    @include list_titleh2-border ;
 }
 li
 {
     @include list_text_menu;
+}
+
+ul
+{
+    @include ul_bloc_menu;
 }

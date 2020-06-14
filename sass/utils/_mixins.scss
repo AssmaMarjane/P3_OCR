@@ -59,20 +59,22 @@
 }
 
 @mixin bloc_card_menu {
-    border: 7px solid black;
+    border: 7px solid rgba(0, 0, 0, 0.041);
     text-align: center;
     width: 70%;
-    margin: 15%;
+    align-self: center;
 }
 
 @mixin card_titleh1_top { 
     text-align: center;
     font-size: large ;
+    margin: 5%;
 }
 
 @mixin card_titleh3_bottom { 
     text-align: center;
     font-size:  medium;
+    margin: 5%;
 }
 
 @mixin list_titleh2-border { 
@@ -85,4 +87,10 @@
     flex-direction: row;
     justify-content: space-between;
     //pour les carte des menus avec plat face a prix
+}
+@mixin ul_bloc_menu {
+    padding-left: 0;
+    font-size: medium;
+    margin-left: 10%;
+    margin-right: 10%;
 }

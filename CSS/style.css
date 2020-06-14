@@ -16,14 +16,16 @@ footer {
   padding-left: 2%;
   padding-right: 2%;
 }
+footer a {
+  background-color: #579c87;
+  color: #fdcb46;
+  text-decoration: none;
+  text-align: center;
+}
 
 #homeBody {
   display: flex;
   flex-direction: column;
-}
-#homeBody a {
-  text-decoration: none;
-  text-align: center;
 }
 
 main {
@@ -58,6 +60,10 @@ nav p {
   opacity: 0.7;
   zoom: 1.2;
 }
+.item_style a {
+  text-decoration: none;
+  text-align: center;
+}
 
 #blocMenu1 {
   background-color: #f7c7c1;
@@ -68,7 +74,7 @@ nav p {
 }
 
 #blocMenu2 {
-  background-color: #fff5fe;
+  background-color: #ecbedb;
   color: #c77412;
 }
 
@@ -90,45 +96,47 @@ nav p {
 }
 
 #bloc_card_menu1 {
-  border: 7px solid black;
+  border: 7px solid rgba(0, 0, 0, 0.041);
   text-align: center;
   width: 70%;
-  margin: 15%;
+  align-self: center;
   background-color: #f7c7c1;
 }
 
 #bloc_card_menu2 {
-  border: 7px solid black;
+  border: 7px solid rgba(0, 0, 0, 0.041);
   text-align: center;
   width: 70%;
-  margin: 15%;
-  background-color: #fff5fe;
+  align-self: center;
+  background-color: #ecbedb;
 }
 
 #bloc_card_menu3 {
-  border: 7px solid black;
+  border: 7px solid rgba(0, 0, 0, 0.041);
   text-align: center;
   width: 70%;
-  margin: 15%;
+  align-self: center;
   background-color: #edeffa;
 }
 
 #bloc_card_menu4 {
-  border: 7px solid black;
+  border: 7px solid rgba(0, 0, 0, 0.041);
   text-align: center;
   width: 70%;
-  margin: 15%;
+  align-self: center;
   background-color: #d1fdb1;
 }
 
 #bloc_card_menu h1 {
   text-align: center;
   font-size: large;
+  margin: 5%;
 }
 
 #bloc_card_menu h3 {
   text-align: center;
   font-size: medium;
+  margin: 5%;
 }
 
 #bloc_card_menu h2 {
@@ -140,6 +148,13 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+ul {
+  padding-left: 0;
+  font-size: medium;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
