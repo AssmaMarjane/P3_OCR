@@ -4,6 +4,10 @@
 header
 {
     @include headfoot_rules ;
+
+    h1{
+        text-align: center;
+    }
 }
 
 footer
@@ -14,68 +18,63 @@ footer
 
 #homeBody
 {
-    @include home_rules
-}
+    @include home_rules ;
 
-nav, footer a
-{
-    @include headfoot_rules ;
-}
-header
-{
-
-    h1{
-        text-align: center;
+    a{
+        @include link_home ; 
     }
-}
-nav p
-{
-    text-align: center;
-}
-a
-{
-    text-decoration: none;
-}
-.item_style:hover
-{
-@include link_item_home
 }
 main
 {
     @include main_rules
 }
-.item_style
-{
-    @include item_home_rules
-}
-#blocRose
-{
-    background-color: $color_background_menu1;
-}
-#blocRose i
-{
-    color: black 3px solid;
-}
-#blocViolet
-{
-    background-color: $color_background_menu2;
 
-}
-#blocBleu
-{
-    background-color: $color_background_menu3;
-
-}
-#blocVert
-{
-    background-color: $color_background_menu4;
-
-}
 nav 
 {
-    @include nav_home
+    @include nav_home ;
+    @include headfoot_rules ;
+    p{
+        text-align: center;
+    }
 }
 
+.item_style
+{
+    @include item_home_rules ;
+    :hover{
+        @include link_item_home ;
+    }
+}
+
+#blocMenu1
+{
+    background-color: $color_background_menu1;
+    color: $color_text_menu1;
+
+    i{
+        color: $color_picto_menu1 3px solid;
+    }
+}
+
+#blocMenu2
+{
+    background-color: $color_background_menu2;
+    color : $color_text_menu2;
+
+}
+#blocMenu3
+{
+    background-color: $color_background_menu3;
+    color: $color_text_menu3;
+
+}
+#blocMenu4
+{
+    background-color: $color_background_menu4;
+    color: $color_text_menu4;
+}
+
+//a partir de la ça ne concerne que les pages
 .page_menu
 {
     @include page_rules ; 

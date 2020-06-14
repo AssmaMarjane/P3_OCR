@@ -2,6 +2,9 @@ header {
   background-color: #579c87;
   color: #fdcb46;
 }
+header h1 {
+  text-align: center;
+}
 
 footer {
   background-color: #579c87;
@@ -18,27 +21,9 @@ footer {
   display: flex;
   flex-direction: column;
 }
-
-nav, footer a {
-  background-color: #579c87;
-  color: #fdcb46;
-}
-
-header h1 {
-  text-align: center;
-}
-
-nav p {
-  text-align: center;
-}
-
-a {
+#homeBody a {
   text-decoration: none;
-}
-
-.item_style:hover {
-  opacity: 0.7;
-  zoom: 1.2;
+  text-align: center;
 }
 
 main {
@@ -46,34 +31,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 2%;
-}
-
-.item_style {
-  border: 3px solid rgba(128, 128, 128, 0.089);
-  text-align: center;
-  height: 131px;
-  width: 30%;
-  margin: 2%;
-}
-
-#blocRose {
-  background-color: #fcdfdb;
-}
-
-#blocRose i {
-  color: black 3px solid;
-}
-
-#blocViolet {
-  background-color: #fff5fe;
-}
-
-#blocBleu {
-  background-color: #f9f9f9;
-}
-
-#blocVert {
-  background-color: #fdfffd;
+  width: 80%;
+  align-self: center;
 }
 
 nav {
@@ -81,12 +40,53 @@ nav {
   width: 20%;
   border-radius: 20%;
   margin: 2%;
+  background-color: #579c87;
+  color: #fdcb46;
+}
+nav p {
+  text-align: center;
+}
+
+.item_style {
+  border: solid rgba(150, 107, 107, 0.027);
+  text-align: center;
+  height: 400px;
+  width: 30%;
+  margin: 2%;
+}
+.item_style :hover {
+  opacity: 0.7;
+  zoom: 1.2;
+}
+
+#blocMenu1 {
+  background-color: #f7c7c1;
+  color: #3d1319;
+}
+#blocMenu1 i {
+  color: #f05861 3px solid;
+}
+
+#blocMenu2 {
+  background-color: #fff5fe;
+  color: #c77412;
+}
+
+#blocMenu3 {
+  background-color: #edeffa;
+  color: #0887fb;
+}
+
+#blocMenu4 {
+  background-color: #d1fdb1;
+  color: #72bf56;
 }
 
 .page_menu {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-self: center;
 }
 
 #bloc_card_menu1 {
@@ -94,7 +94,7 @@ nav {
   text-align: center;
   width: 70%;
   margin: 15%;
-  background-color: #fcdfdb;
+  background-color: #f7c7c1;
 }
 
 #bloc_card_menu2 {
@@ -110,7 +110,7 @@ nav {
   text-align: center;
   width: 70%;
   margin: 15%;
-  background-color: #f9f9f9;
+  background-color: #edeffa;
 }
 
 #bloc_card_menu4 {
@@ -118,7 +118,7 @@ nav {
   text-align: center;
   width: 70%;
   margin: 15%;
-  background-color: #fdfffd;
+  background-color: #d1fdb1;
 }
 
 #bloc_card_menu h1 {
