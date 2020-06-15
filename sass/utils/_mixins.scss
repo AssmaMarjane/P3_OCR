@@ -33,6 +33,7 @@
     height: 400px;
     width: 30%;
     margin: 2%;
+    box-shadow: grey 3px 3px 3px 3px;
 }
 
 @mixin nav_home {
@@ -63,6 +64,8 @@
     text-align: center;
     width: 70%;
     align-self: center;
+    box-shadow: grey 3px 3px 3px 3px;
+
 }
 
 @mixin card_titleh1_top { 
