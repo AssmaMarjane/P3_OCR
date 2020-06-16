@@ -53,7 +53,8 @@ nav
     @include bloctext_item_home;
     i{
         color: $color_picto_menu1 ;
-        text-decoration:3px solid ;
+        text-decoration:solid ;
+        height: 10px;;
     }
 
     a{

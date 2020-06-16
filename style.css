@@ -79,7 +79,8 @@ nav p {
 }
 .bloc_text_item i {
   color: #f5606a;
-  text-decoration: 3px solid;
+  text-decoration: solid;
+  height: 10px;
 }
 .bloc_text_item a {
   text-decoration: none;
