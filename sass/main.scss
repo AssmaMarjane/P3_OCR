@@ -1,6 +1,11 @@
 @import "../sass/utils/variables";
 @import "../sass/utils/mixins";
 
+body
+{
+    margin: 0;
+}
+
 header
 {
     @include headfoot_rules ;
