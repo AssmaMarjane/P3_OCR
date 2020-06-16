@@ -78,6 +78,10 @@ nav p {
   opacity: 0.7;
   zoom: 1.2;
 }
+.bloc_text_item i {
+  color: #f5606a;
+  text-decoration: 3px solid;
+}
 .bloc_text_item a {
   text-decoration: none;
   text-align: center;
@@ -86,10 +90,6 @@ nav p {
 #blocMenu1 {
   background-color: #f7c7c1;
   color: #3d1319;
-}
-#blocMenu1 i {
-  color: #f05861;
-  text-decoration: 3px solid;
 }
 #blocMenu1 a {
   color: #3d1319;

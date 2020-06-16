@@ -50,6 +50,11 @@ nav
 .bloc_text_item
 {
     @include bloctext_item_home;
+    i{
+        color: $color_picto_menu1 ;
+        text-decoration:3px solid ;
+    }
+
     a{
         @include link_home ;
     }
@@ -59,11 +64,6 @@ nav
 {
     background-color: $color_background_menu1;
     color: $color_text_menu1;
-
-    i{
-        color: $color_picto_menu1 ;
-        text-decoration:3px solid ;
-    }
     a{
         color: $color_text_menu1;
     }
