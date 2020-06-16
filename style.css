@@ -68,7 +68,7 @@ nav p {
   margin-top: 40%;
   text-align: center;
 }
-.bloc_text_item a :hover {
+.bloc_text_item a:hover {
   opacity: 0.7;
   zoom: 1.2;
 }
