@@ -62,7 +62,7 @@ nav p {
   height: 400px;
   width: 30%;
   margin: 2%;
-  box-shadow: grey 2px 2px 10px 5px;
+  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
 }
 .item_style :hover {
   opacity: 0.7;

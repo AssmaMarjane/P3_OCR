@@ -62,24 +62,36 @@ nav
     i{
         color: $color_picto_menu1 3px solid;
     }
+    h2{
+        color: $color_text_menu1;
+    }
 }
 
 #blocMenu2
 {
     background-color: $color_background_menu2;
     color : $color_text_menu2;
+    h2{
+        color: $color_text_menu2
+    }
 
 }
 #blocMenu3
 {
     background-color: $color_background_menu3;
     color: $color_text_menu3;
+    h2{
+        color: $color_text_menu3;
+    }
 
 }
 #blocMenu4
 {
     background-color: $color_background_menu4;
     color: $color_text_menu4;
+    h2{
+        color: $color_text_menu4;
+    }
 }
 
 //a partir de la ça ne concerne que les pages
