@@ -11,11 +11,14 @@
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
+    position: sticky;
+    bottom: 0;
 }
 
 @mixin home_rules {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 @mixin main_rules {

@@ -15,6 +15,8 @@ footer {
   width: 96%;
   padding-left: 2%;
   padding-right: 2%;
+  position: sticky;
+  bottom: 0;
 }
 footer a {
   background-color: #579c87;
@@ -26,6 +28,7 @@ footer a {
 #homeBody {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 main {
