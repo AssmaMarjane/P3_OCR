@@ -80,9 +80,15 @@ nav p {
 #blocMenu1 i {
   color: #f05861 3px solid;
 }
+#blocMenu1 a {
+  color: #3d1319;
+}
 
 #blocMenu2 {
   background-color: #ecbedb;
+  color: #c77412;
+}
+#blocMenu2 a {
   color: #c77412;
 }
 
@@ -90,9 +96,15 @@ nav p {
   background-color: #edeffa;
   color: #0887fb;
 }
+#blocMenu3 a {
+  color: #0887fb;
+}
 
 #blocMenu4 {
   background-color: #d1fdb1;
+  color: #72bf56;
+}
+#blocMenu4 a {
   color: #72bf56;
 }
 

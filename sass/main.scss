@@ -46,9 +46,10 @@ nav
 .item_style
 {
     @include item_home_rules ;
-    :hover{
-        @include link_item_home ;
-    }
+}
+.bloc_text_item
+{
+    @include bloctext_item_home;
     a{
         @include link_home ;
     }
@@ -62,7 +63,7 @@ nav
     i{
         color: $color_picto_menu1 3px solid;
     }
-    h2{
+    a{
         color: $color_text_menu1;
     }
 }
@@ -71,7 +72,7 @@ nav
 {
     background-color: $color_background_menu2;
     color : $color_text_menu2;
-    h2{
+    a{
         color: $color_text_menu2
     }
 
@@ -80,7 +81,7 @@ nav
 {
     background-color: $color_background_menu3;
     color: $color_text_menu3;
-    h2{
+    a{
         color: $color_text_menu3;
     }
 
@@ -89,7 +90,7 @@ nav
 {
     background-color: $color_background_menu4;
     color: $color_text_menu4;
-    h2{
+    a{
         color: $color_text_menu4;
     }
 }
