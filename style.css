@@ -88,7 +88,8 @@ nav p {
   color: #3d1319;
 }
 #blocMenu1 i {
-  color: #f05861 3px solid;
+  color: #f05861;
+  text-decoration: 3px solid;
 }
 #blocMenu1 a {
   color: #3d1319;
