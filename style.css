@@ -72,12 +72,10 @@ nav p {
 .bloc_text_item h2 {
   font-size: medium;
 }
-.bloc_text_item p {
-  font-size: large;
-}
 .bloc_text_item a:hover {
   opacity: 0.7;
   zoom: 1.2;
+  font-size: large;
 }
 .bloc_text_item i {
   color: #f5606a;
