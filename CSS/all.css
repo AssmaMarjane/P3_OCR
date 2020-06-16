@@ -124,15 +124,6 @@
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
-:root .fa-rotate-90,
-:root .fa-rotate-180,
-:root .fa-rotate-270,
-:root .fa-flip-horizontal,
-:root .fa-flip-vertical,
-:root .fa-flip-both {
-  -webkit-filter: none;
-          filter: none; }
-
 .fa-stack {
   display: inline-block;
   height: 2em;
