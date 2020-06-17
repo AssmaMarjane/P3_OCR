@@ -38,9 +38,6 @@ nav
 {
     @include nav_home ;
     @include headfoot_rules ;
-    p{
-        text-align: center;
-    }
 }
 
 .item_style
