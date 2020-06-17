@@ -55,6 +55,7 @@ nav {
 nav p {
   text-align: center;
   font-size: larger;
+  font-weight: bold;
 }
 
 .item_style {
