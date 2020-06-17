@@ -126,6 +126,9 @@ nav
     @include bloc_card_menu ;
     background-color: $color_background_menu1;
     //ajout police
+    li{
+        font-family: $font_link_menu1;
+    }
 }
 #bloc_card_menu2
 {
@@ -138,12 +141,20 @@ nav
     @include bloc_card_menu ;
     background-color: $color_background_menu3;
     //ajout police
+    li{
+        font-family: $font_link_menu1;
+    }
+
 }
 #bloc_card_menu4
 {
     @include bloc_card_menu ;
     background-color: $color_background_menu4;
     //ajout police
+    li{
+        font-family: $font_link_menu1;
+    }
+
 }
 
 #bloc_card_menu h1
