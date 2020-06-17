@@ -55,7 +55,6 @@ nav {
 nav p {
   text-align: center;
   font-size: larger;
-  font-weight: bold;
 }
 
 .item_style {
@@ -79,7 +78,6 @@ nav p {
 }
 .bloc_text_item p {
   font-size: x-large;
-  font-weight: bold;
 }
 .bloc_text_item i {
   color: #f5606a;
@@ -95,8 +93,13 @@ nav p {
   background-color: #f7c7c1;
   color: #3d1319;
 }
+#blocMenu1 h2 {
+  font-family: "manus";
+}
 #blocMenu1 a {
   color: #3d1319;
+  font-family: "Segoe Print";
+  font-weight: bold;
 }
 #blocMenu1 i {
   margin-bottom: 0;
@@ -106,6 +109,9 @@ nav p {
   background-color: #fce9fa;
   color: #c77412;
 }
+#blocMenu2 h2 {
+  font-family: "quilla regular";
+}
 #blocMenu2 a {
   color: #c77412;
 }
@@ -114,16 +120,24 @@ nav p {
   background-color: #edeffa;
   color: #0887fb;
 }
+#blocMenu3 h2 {
+  font-family: "regards script regular";
+}
 #blocMenu3 a {
   color: #0887fb;
+  font-family: "segoe", "kalam";
 }
 
 #blocMenu4 {
   background-color: #e8f8e8;
   color: #72bf56;
 }
+#blocMenu4 h2 {
+  font-family: "breech regular";
+}
 #blocMenu4 a {
   color: #72bf56;
+  font-family: "segoe", "kalam";
 }
 
 .page_menu {

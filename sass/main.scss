@@ -62,8 +62,13 @@ nav
 {
     background-color: $color_background_menu1;
     color: $color_text_menu1;
+    h2{
+        font-family:$font_title_menu1 ;
+    }
     a{
         color: $color_text_menu1;
+        font-family: $font_link_menu1;
+        font-weight: bold;
     }
     i {
         margin-bottom: 0;
@@ -74,6 +79,9 @@ nav
 {
     background-color: $color_background_menu2;
     color : $color_text_menu2;
+    h2{
+        font-family:$font_title_menu2 ;
+    }
     a{
         color: $color_text_menu2
     }
@@ -83,8 +91,12 @@ nav
 {
     background-color: $color_background_menu3;
     color: $color_text_menu3;
+    h2{
+        font-family:$font_title_menu3 ;
+    }
     a{
         color: $color_text_menu3;
+        font-family: $font_link_menu3;
     }
 
 }
@@ -92,8 +104,12 @@ nav
 {
     background-color: $color_background_menu4;
     color: $color_text_menu4;
+    h2{
+        font-family:$font_title_menu4 ;
+    }
     a{
         color: $color_text_menu4;
+        font-family: $font_link_menu4;
     }
 }
 
