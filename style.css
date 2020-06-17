@@ -94,7 +94,7 @@ nav p {
   color: #3d1319;
 }
 #blocMenu1 h2 {
-  font-family: "manus";
+  font-family: "Manus";
 }
 #blocMenu1 a {
   color: #3d1319;
@@ -110,7 +110,7 @@ nav p {
   color: #c77412;
 }
 #blocMenu2 h2 {
-  font-family: "quilla regular";
+  font-family: "Quilla regular";
 }
 #blocMenu2 a {
   color: #c77412;
@@ -125,7 +125,7 @@ nav p {
 }
 #blocMenu3 a {
   color: #0887fb;
-  font-family: "segoe", "kalam";
+  font-family: "Segoe";
 }
 
 #blocMenu4 {
@@ -133,11 +133,11 @@ nav p {
   color: #72bf56;
 }
 #blocMenu4 h2 {
-  font-family: "breech regular";
+  font-family: "Breech regular";
 }
 #blocMenu4 a {
   color: #72bf56;
-  font-family: "segoe", "kalam";
+  font-family: "Segoe";
 }
 
 .page_menu {
