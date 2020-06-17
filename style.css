@@ -20,7 +20,8 @@ footer {
   width: 96%;
   padding-left: 2%;
   padding-right: 2%;
-  position: sticky;
+  height: 50px;
+  position: fixed;
   bottom: 0;
 }
 footer a {
@@ -146,12 +147,15 @@ nav p {
   flex-direction: column;
   text-align: center;
   align-self: center;
+  height: 1000px;
+  margin: 0;
 }
 
 #bloc_card_menu1 {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 70%;
+  height: 780px;
   align-self: center;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #f7c7c1;
@@ -164,6 +168,7 @@ nav p {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 70%;
+  height: 780px;
   align-self: center;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #fce9fa;
@@ -173,6 +178,7 @@ nav p {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 70%;
+  height: 780px;
   align-self: center;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #edeffa;
@@ -185,6 +191,7 @@ nav p {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 70%;
+  height: 780px;
   align-self: center;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #e8f8e8;
