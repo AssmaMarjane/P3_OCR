@@ -49,11 +49,11 @@ nav {
   width: 30%;
   border-radius: 20%;
   margin: 2%;
+  background-color: #579c87;
+  color: #fdcb46;
 }
 nav p {
   text-align: center;
-  background-color: #579c87;
-  color: #fdcb46;
 }
 
 .item_style {
