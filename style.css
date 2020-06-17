@@ -96,6 +96,9 @@ nav p {
 #blocMenu1 a {
   color: #3d1319;
 }
+#blocMenu1 i {
+  margin-bottom: 0;
+}
 
 #blocMenu2 {
   background-color: #fce9fa;
