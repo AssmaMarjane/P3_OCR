@@ -45,11 +45,13 @@
 @mixin bloctext_item_home {
     margin-top: 40%;
     text-align: center;
-    h2 {font-size: medium;
+    h2 {font-size: large;
     }
     a:hover{opacity: 0.7;
-        zoom: 1.2;  
-        font-size: large; 
+        zoom: 1.2;
+    }
+    p{ font-size: x-large; 
+        font-weight: bold;   
     }
 }
 @mixin nav_home {
