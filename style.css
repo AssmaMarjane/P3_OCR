@@ -175,7 +175,7 @@ nav p {
 }
 .bloc_card_style h1 {
   text-align: center;
-  font-size: large;
+  font-size: xx-large;
   margin: 5%;
 }
 .bloc_card_style h2 {
@@ -206,6 +206,9 @@ ul {
 }
 #bloc_card_menu1 li {
   font-family: "Segoe Print";
+}
+#bloc_card_menu1 i {
+  font-size: xx-large;
 }
 
 #bloc_card_menu2 {
