@@ -1,7 +1,6 @@
 @mixin headfoot_rules {
     background-color: $color_background_headfoot;
     color: $color_text_headfoot;
-
 }
 
 @mixin footer_rules {
@@ -22,7 +21,6 @@
     margin: 0;
 }
 
-
 @mixin main_rules {
     display: flex;
     flex-wrap: wrap;
@@ -31,6 +29,7 @@
     width: 80%;
     align-self: center;
 }
+
 @mixin link_home {
     text-decoration: none;
     text-align: center;
@@ -43,29 +42,31 @@
     margin: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px; 
 }
+
 @mixin bloctext_item_home {
     margin-top: 40%;
     text-align: center;
     h2 {font-size: large;
     }
     a:hover{opacity: 0.7;
-        zoom: 1.2;
+            zoom: 1.2;
     }
     p{ font-size: x-large; 
     }
 }
-@mixin nav_home {
+
+@mixin nav_home{
     align-self: center;
     width: 30%;
     border-radius: 10px;
     margin: 2%;
-    p{ text-align: center;
+    p{  text-align: center;
         font-size: larger;
     }
 }
 
 //a partir de cette ligne ne concerne que les pages menus
-@mixin page_rules {
+@mixin page_rules{
     display: flex;
     flex-direction: column;
     text-align: center;  
@@ -78,7 +79,7 @@
     }
 }
 
-@mixin bloc_card_menu {
+@mixin bloc_card_menu{
     border: solid rgba(150, 107, 107, 0.027);
     text-align: center;
     width: 70%;
@@ -89,33 +90,34 @@
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px; 
 }
 
-@mixin card_titleh1_top { 
+@mixin card_titleh1_top{ 
     text-align: center;
     font-size: large ;
     margin: 5%;
 }
 
-@mixin card_titleh3_bottom { 
+@mixin card_titleh3_bottom{ 
     text-align: center;
     font-size:  medium;
     margin: 5%;
 }
 
-@mixin list_titleh2-border { 
+@mixin card_titleh2_border{ 
     text-align: center;
     border-bottom: medium;  
 }
 
-@mixin list_text_menu {
+@mixin list_text_menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: medium;
 
     //pour les carte des menus avec plat face a prix
 }
-@mixin ul_bloc_menu {
+
+@mixin ul_bloc_menu{
     padding-left: 0;
-    font-size: medium;
     margin-left: 10%;
     margin-right: 10%;
 }

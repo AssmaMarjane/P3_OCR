@@ -150,14 +150,50 @@ nav p {
   height: 1000px;
   margin: 0;
 }
+.page_menu h1 {
+  margin-bottom: 0%;
+  margin-top: 5%;
+}
 
-#bloc_card_menu1 {
+.bloc_card_style {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 70%;
   height: 780px;
   align-self: center;
+  margin: 5%;
+  margin-top: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+}
+.bloc_card_style h1 {
+  text-align: center;
+  font-size: large;
+  margin: 5%;
+}
+.bloc_card_style h2 {
+  text-align: center;
+  border-bottom: medium;
+}
+.bloc_card_style h3 {
+  text-align: center;
+  font-size: medium;
+  margin: 5%;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: medium;
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#bloc_card_menu1 {
   background-color: #f7c7c1;
 }
 #bloc_card_menu1 li {
@@ -165,22 +201,10 @@ nav p {
 }
 
 #bloc_card_menu2 {
-  border: solid rgba(150, 107, 107, 0.027);
-  text-align: center;
-  width: 70%;
-  height: 780px;
-  align-self: center;
-  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #fce9fa;
 }
 
 #bloc_card_menu3 {
-  border: solid rgba(150, 107, 107, 0.027);
-  text-align: center;
-  width: 70%;
-  height: 780px;
-  align-self: center;
-  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #edeffa;
 }
 #bloc_card_menu3 li {
@@ -188,46 +212,10 @@ nav p {
 }
 
 #bloc_card_menu4 {
-  border: solid rgba(150, 107, 107, 0.027);
-  text-align: center;
-  width: 70%;
-  height: 780px;
-  align-self: center;
-  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
   background-color: #e8f8e8;
 }
 #bloc_card_menu4 li {
   font-family: "Segoe Print";
-}
-
-#bloc_card_menu h1 {
-  text-align: center;
-  font-size: large;
-  margin: 5%;
-}
-
-#bloc_card_menu h3 {
-  text-align: center;
-  font-size: medium;
-  margin: 5%;
-}
-
-#bloc_card_menu h2 {
-  text-align: center;
-  border-bottom: medium;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-ul {
-  padding-left: 0;
-  font-size: medium;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
