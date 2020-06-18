@@ -40,11 +40,6 @@ nav {
 
 .bloc_text_item{
     @include bloctext_item_home;
-    i{
-        color: $color_picto_menu1 ;
-        text-decoration:solid ;
-        height: 10px;;
-    }
     a{
         @include link_home ;
     }
@@ -62,8 +57,12 @@ nav {
         font-weight: bold ;
     }
     i{
+        color: $color_picto_menu1 ;
+        text-decoration:solid ;
+        height: 10px;
         margin-bottom: 0;
     }
+
 }
 
 #blocMenu2{
@@ -139,7 +138,7 @@ ul{
     }
     i{
         font-size: xx-large;
-        color: $color_text_menu1;
+        color: $color_picto_menu1;
     }
 }
 #blocTitle_bottom{
@@ -148,7 +147,7 @@ ul{
     }
     i{
         font-size: larger;
-        color: $color_text_menu1;
+        color: $color_picto_menu1;
     }
 }
 //pge menu2
