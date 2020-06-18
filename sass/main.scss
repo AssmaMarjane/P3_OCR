@@ -27,8 +27,8 @@ footer{
     @include home_rules ;
 }
 
-main{
-    @include main_rules ;
+#homeMain{
+    @include mainHome_rules ;
 }
 
 nav {
@@ -107,7 +107,9 @@ nav {
 .page_menu{
     @include page_rules ; 
 }
-
+ .page_main{
+     @include mainPage_rules ;
+ }
 .bloc_card_style{
     @include bloc_card_menu ;
     h1{
