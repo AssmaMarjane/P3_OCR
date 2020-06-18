@@ -118,8 +118,11 @@
 @mixin card_titleh3_bottom{ 
     text-align: center;
     font-size:  medium;
-    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: x-large;
 }
+
 
 @mixin card_titleh2_border{ 
     text-align: center;
