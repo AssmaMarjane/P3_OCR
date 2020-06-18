@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
 }
@@ -208,6 +209,7 @@ ul {
 }
 #bloc_card_menu1 li {
   font-family: "Segoe Print";
+  color: #3d1319;
 }
 #bloc_card_menu1 i {
   font-size: xx-large;
@@ -215,6 +217,18 @@ ul {
 
 #bloc_card_menu2 {
   background-color: #fce9fa;
+}
+
+#blocEntrée_menu2 li {
+  color: #c67412;
+}
+
+#blocPlat_menu2 {
+  color: #a56799;
+}
+
+#blocDessert_menu2 {
+  color: #6e4ccc;
 }
 
 #bloc_card_menu3 {

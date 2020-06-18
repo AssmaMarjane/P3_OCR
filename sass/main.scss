@@ -7,7 +7,6 @@ body{
 
 header{
     @include headfoot_rules ;
-
     h1{
         @include titlelogo_header_rules
     }
@@ -106,13 +105,13 @@ nav {
 .page_menu{
     @include page_rules ; 
 }
- .page_main{
-     @include mainPage_rules ;
+.page_main{
+    @include mainPage_rules ;
      h1{
-        @include titlemain_rules
+        @include titlemain_rules;
     }
+}
 
- }
 .bloc_card_style{
     @include bloc_card_menu ;
     h1{
@@ -124,23 +123,22 @@ nav {
     h3{
         @include card_titleh3_bottom ; 
     }
- }
+}
 
 li{
      @include list_text_menu;
 }
  
- ul
- {
-     @include ul_bloc_menu;
- }
+ul{
+    @include ul_bloc_menu;
+}
 
- //a parti de la specificite par pg
+//a partir de la specificite par pg
 #bloc_card_menu1{
     background-color: $color_background_menu1;
-    //ajout police
     li{
         font-family: $font_link_menu1;
+        color: $color_text_menu1;
     }
     i{
         font-size: xx-large;
@@ -149,12 +147,19 @@ li{
 
 #bloc_card_menu2{
     background-color: $color_background_menu2;
-    //ajout police
+}
+#blocEntrée_menu2 li{
+    color: $color_text_entreemenu2 ;
+}
+#blocPlat_menu2{
+    color: $color_text_platmenu2
+}
+#blocDessert_menu2{
+    color: $color_text_dessertmenu2;
 }
 
 #bloc_card_menu3{
     background-color: $color_background_menu3;
-    //ajout police
     li{
         font-family: $font_link_menu1;
     }
@@ -162,9 +167,9 @@ li{
 
 #bloc_card_menu4{
     background-color: $color_background_menu4;
-    //ajout police
     li{
         font-family: $font_link_menu1;
     }
 }
+//ajout police liste menu
 
