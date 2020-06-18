@@ -120,9 +120,6 @@ nav {
     h2{
         @include card_titleh2_border ; 
     }
-    h3{
-        @include card_titleh3_bottom ; 
-    }
 }
 
 li{
@@ -134,17 +131,27 @@ ul{
 }
 
 //a partir de la specificite par pg
+//pge menu1
 #bloc_card_menu1{
     background-color: $color_background_menu1;
     li{
         font-family: $font_link_menu1;
-        color: $color_text_menu1;
     }
     i{
         font-size: xx-large;
+        color: $color_text_menu1;
     }
 }
-
+#blocTitle_bottom{
+    h3{
+        @include card_titleh3_bottom ; 
+    }
+    i{
+        font-size: larger;
+        color: $color_text_menu1;
+    }
+}
+//pge menu2
 #bloc_card_menu2{
     background-color: $color_background_menu2;
     h2{
@@ -161,14 +168,14 @@ ul{
         color: $color_text_dessertmenu2;
     }    
 }
-
+//pge menu3
 #bloc_card_menu3{
     background-color: $color_background_menu3;
     li{
         font-family: $font_link_menu1;
     }
 }
-
+//pge menu4
 #bloc_card_menu4{
     background-color: $color_background_menu4;
     li{

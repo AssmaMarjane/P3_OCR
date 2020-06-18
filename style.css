@@ -185,11 +185,6 @@ nav p {
   text-align: center;
   border-bottom: medium;
 }
-.bloc_card_style h3 {
-  text-align: center;
-  font-size: medium;
-  margin: 5%;
-}
 
 li {
   display: flex;
@@ -209,10 +204,20 @@ ul {
 }
 #bloc_card_menu1 li {
   font-family: "Segoe Print";
-  color: #3d1319;
 }
 #bloc_card_menu1 i {
   font-size: xx-large;
+  color: #3d1319;
+}
+
+#blocTitle_bottom h3 {
+  text-align: center;
+  font-size: medium;
+  margin: 5%;
+}
+#blocTitle_bottom i {
+  font-size: larger;
+  color: #3d1319;
 }
 
 #bloc_card_menu2 {
