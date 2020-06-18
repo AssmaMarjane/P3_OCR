@@ -199,6 +199,7 @@ ul {
 
 #bloc_card_menu1 {
   background-color: #f7c7c1;
+  color: #3d1319;
 }
 #bloc_card_menu1 li {
   font-family: "Segoe Print";
@@ -237,12 +238,18 @@ ul {
 #bloc_card_menu3 {
   background-color: #edeffa;
 }
+#bloc_card_menu3 h1 {
+  color: #0887fb;
+}
 #bloc_card_menu3 li {
   font-family: "Segoe Print";
 }
 
 #bloc_card_menu4 {
   background-color: #e8f8e8;
+}
+#bloc_card_menu4 h1 {
+  color: #72bf56;
 }
 #bloc_card_menu4 li {
   font-family: "Segoe Print";

@@ -133,6 +133,7 @@ ul{
 //pge menu1
 #bloc_card_menu1{
     background-color: $color_background_menu1;
+    color: $color_text_menu1;
     li{
         font-family: $font_link_menu1;
     }
@@ -170,6 +171,9 @@ ul{
 //pge menu3
 #bloc_card_menu3{
     background-color: $color_background_menu3;
+    h1{
+        color: $color_text_menu3;
+    }
     li{
         font-family: $font_link_menu1;
     }
@@ -177,6 +181,9 @@ ul{
 //pge menu4
 #bloc_card_menu4{
     background-color: $color_background_menu4;
+    h1{
+        color: $color_text_menu4;
+    }
     li{
         font-family: $font_link_menu1;
     }
