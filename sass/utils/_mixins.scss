@@ -72,6 +72,10 @@
     align-self: center;
     height: 1000px;
     margin: 0;
+    h1{
+        margin-bottom: 0%;
+        margin-top: 5%;
+    }
 }
 
 @mixin bloc_card_menu {
@@ -80,6 +84,8 @@
     width: 70%;
     height: 780px;
     align-self: center;
+    margin: 5%;
+    margin-top: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px; 
 }
 
