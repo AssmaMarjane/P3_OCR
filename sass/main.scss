@@ -147,15 +147,19 @@ ul{
 
 #bloc_card_menu2{
     background-color: $color_background_menu2;
-}
-#blocEntrée_menu2 li{
-    color: $color_text_entreemenu2 ;
-}
-#blocPlat_menu2{
-    color: $color_text_platmenu2
-}
-#blocDessert_menu2{
-    color: $color_text_dessertmenu2;
+    h2{
+        border-bottom: 2px;
+        //ici mettre mixin h2 soulign
+    }
+    #blocEntrée_menu2 {
+        color: $color_text_entreemenu2 ;
+    }
+    #blocPlat_menu2{
+        color: $color_text_platmenu2 ;
+    }
+    #blocDessert_menu2{
+        color: $color_text_dessertmenu2;
+    }    
 }
 
 #bloc_card_menu3{

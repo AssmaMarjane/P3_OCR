@@ -218,16 +218,16 @@ ul {
 #bloc_card_menu2 {
   background-color: #fce9fa;
 }
-
-#blocEntrée_menu2 li {
+#bloc_card_menu2 h2 {
+  border-bottom: 2px;
+}
+#bloc_card_menu2 #blocEntrée_menu2 {
   color: #c67412;
 }
-
-#blocPlat_menu2 {
+#bloc_card_menu2 #blocPlat_menu2 {
   color: #a56799;
 }
-
-#blocDessert_menu2 {
+#bloc_card_menu2 #blocDessert_menu2 {
   color: #6e4ccc;
 }
 
