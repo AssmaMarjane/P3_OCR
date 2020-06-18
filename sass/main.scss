@@ -109,6 +109,10 @@ nav {
 }
  .page_main{
      @include mainPage_rules ;
+     h1{
+        @include titlemain_rules
+    }
+
  }
 .bloc_card_style{
     @include bloc_card_menu ;
