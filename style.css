@@ -200,6 +200,8 @@ ul {
   padding-left: 0;
   margin-left: 5%;
   margin-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #bloc_card_menu1 {
@@ -215,6 +217,10 @@ ul {
 #bloc_card_menu1 i {
   font-size: xx-large;
   color: #f5606a;
+}
+#bloc_card_menu1 ul {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 #blocTitle_bottom h3 {
