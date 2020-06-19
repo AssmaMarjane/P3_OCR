@@ -237,6 +237,12 @@ ul {
   font-family: "Amita", cursive;
   color: #c77412;
 }
+#bloc_card_menu2 h2 {
+  font-size: large;
+}
+#bloc_card_menu2 li {
+  font-size: medium;
+}
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
   font-family: "Candida";
 }
