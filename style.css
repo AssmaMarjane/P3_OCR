@@ -151,7 +151,7 @@ nav p {
   flex-direction: column;
   text-align: center;
   align-self: center;
-  height: 1000px;
+  height: 939px;
   margin: 0;
 }
 
@@ -170,8 +170,8 @@ nav p {
 .bloc_card_style {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
-  width: 70%;
-  height: 780px;
+  width: 40%;
+  height: 670px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
