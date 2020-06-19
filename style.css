@@ -135,14 +135,14 @@ nav p {
 }
 
 #blocMenu4 {
-  background-color: #e8f8e8;
-  color: #72bf56;
+  background-color: #c6fdb2;
+  color: #48c71a;
 }
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
 }
 #blocMenu4 a {
-  color: #72bf56;
+  color: #48c71a;
   font-family: "Segoe Print";
 }
 
@@ -265,10 +265,10 @@ ul {
 }
 
 #bloc_card_menu4 {
-  background-color: #e8f8e8;
+  background-color: #c6fdb2;
 }
 #bloc_card_menu4 h1 {
-  color: #72bf56;
+  color: #48c71a;
   font-family: "Kaushan Script", cursive;
   font-size: 60px;
 }
