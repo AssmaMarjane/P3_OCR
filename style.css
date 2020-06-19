@@ -117,6 +117,7 @@ nav p {
 }
 #blocMenu2 a {
   color: #c77412;
+  font-family: "Candida";
 }
 
 #blocMenu3 {
@@ -124,11 +125,11 @@ nav p {
   color: #0887fb;
 }
 #blocMenu3 h2 {
-  font-family: "regards script regular";
+  font-family: "Dancing Script";
 }
 #blocMenu3 a {
   color: #0887fb;
-  font-family: "Segoe Print";
+  font-family: "Segoe Print", "kalam";
 }
 
 #blocMenu4 {
@@ -140,7 +141,7 @@ nav p {
 }
 #blocMenu4 a {
   color: #72bf56;
-  font-family: "Segoe Print";
+  font-family: "Segoe Print", "Kalam";
 }
 
 .page_menu {
@@ -201,7 +202,10 @@ ul {
   background-color: #f7c7c1;
   color: #3d1319;
 }
-#bloc_card_menu1 li {
+#bloc_card_menu1 h1 {
+  font-family: "Manus";
+}
+#bloc_card_menu1 h2, #bloc_card_menu1 li {
   font-family: "Segoe Print";
 }
 #bloc_card_menu1 i {
@@ -215,6 +219,7 @@ ul {
   margin-top: 3%;
   margin-bottom: 5%;
   font-size: x-large;
+  font-family: "Manus";
 }
 #blocTitle_bottom i {
   font-size: larger;
@@ -225,8 +230,12 @@ ul {
 #bloc_card_menu2 {
   background-color: #fce9fa;
 }
-#bloc_card_menu2 h2 {
-  border-bottom: 2px;
+#bloc_card_menu2 h1 {
+  font-family: "Quilla regular";
+  color: #c77412;
+}
+#bloc_card_menu2 h2, #bloc_card_menu2 li {
+  font-family: "Candida";
 }
 #bloc_card_menu2 #blocEntrée_menu2 {
   color: #c67412;
@@ -243,9 +252,11 @@ ul {
 }
 #bloc_card_menu3 h1 {
   color: #0887fb;
+  font-family: "Dancing Script";
 }
-#bloc_card_menu3 li {
-  font-family: "Segoe Print";
+#bloc_card_menu3 h2, #bloc_card_menu3 li {
+  font-family: "Segoe Print", "kalam";
+  color: black;
 }
 
 #bloc_card_menu4 {
@@ -253,9 +264,11 @@ ul {
 }
 #bloc_card_menu4 h1 {
   color: #72bf56;
+  font-family: "Breech regular";
 }
-#bloc_card_menu4 li {
-  font-family: "Segoe Print";
+#bloc_card_menu4 h2, #bloc_card_menu4 li {
+  font-family: "Segoe Print", "Kalam";
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,18 +28,17 @@ $font_link_footer: "Mirai medium ";
 
 //concerne les polices propres a chaque menu
 
-$font_link_menu1 : "Segoe Print" ;
 $font_title_menu1: "Manus";
-$font_card_menu1: "Kalam";
+$font_text_menu1 : "Segoe Print" ; //font ddl
 
-$font_link_menu2:"Candida";
+
 $font_title_menu2: "Quilla regular";
-$font_card_menu2:"Candida" ;
+$font_text_menu2:"Candida";
 
-$font_link_menu3 : "Segoe Print" ;
-$font_title_menu3:"regards script regular";
-$font_card_menu3:"Segoe Print";
 
-$font_link_menu4 : "Segoe Print" ;
+$font_title_menu3:"Dancing Script"; //font ddl
+$font_text_menu3 : "Segoe Print", "kalam" ; // font ddl
+
+
 $font_title_menu4: "Breech regular";
-$font_card_menu4: "Segoe Print";
+$font_text_menu4 : "Segoe Print" , "Kalam"; //font ddl

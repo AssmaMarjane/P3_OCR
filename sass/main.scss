@@ -53,7 +53,7 @@ nav {
     }
     a{
         color: $color_text_menu1;
-        font-family: $font_link_menu1;
+        font-family: $font_text_menu1;
         font-weight: bold ;
     }
     i{
@@ -73,6 +73,7 @@ nav {
     }
     a{
         color: $color_text_menu2;
+        font-family: $font_text_menu2;
     }
 }
 
@@ -84,7 +85,7 @@ nav {
     }
     a{
         color: $color_text_menu3;
-        font-family: $font_link_menu3;
+        font-family: $font_text_menu3;
     }
 }
 
@@ -96,7 +97,7 @@ nav {
     }
     a{
         color: $color_text_menu4;
-        font-family: $font_link_menu4;
+        font-family: $font_text_menu4;
     }
 }
 
@@ -134,17 +135,22 @@ ul{
 #bloc_card_menu1{
     background-color: $color_background_menu1;
     color: $color_text_menu1;
-    li{
-        font-family: $font_link_menu1;
+    h1{
+        font-family: $font_title_menu1;
+    }
+    h2, li{
+        font-family: $font_text_menu1;
     }
     i{
         font-size: xx-large;
         color: $color_picto_menu1;
     }
 }
+
 #blocTitle_bottom{
     h3{
         @include card_titleh3_bottom ; 
+        font-family: $font_title_menu1;
     }
     i{
         font-size: larger;
@@ -155,9 +161,12 @@ ul{
 //pge menu2
 #bloc_card_menu2{
     background-color: $color_background_menu2;
-    h2{
-        border-bottom: 2px;
-        //ici mettre mixin h2 soulign
+    h1{
+        font-family: $font_title_menu2;
+        color: $color_text_menu2;
+    }
+    h2, li{
+        font-family: $font_text_menu2;
     }
     #blocEntrée_menu2 {
         color: $color_text_entreemenu2 ;
@@ -174,9 +183,11 @@ ul{
     background-color: $color_background_menu3;
     h1{
         color: $color_text_menu3;
+        font-family: $font_title_menu3;
     }
-    li{
-        font-family: $font_link_menu1;
+    h2, li{
+        font-family: $font_text_menu3;
+        color: black;
     }
 }
 //pge menu4
@@ -184,9 +195,11 @@ ul{
     background-color: $color_background_menu4;
     h1{
         color: $color_text_menu4;
+        font-family: $font_title_menu4;
     }
-    li{
-        font-family: $font_link_menu1;
+    h2, li{
+        font-family: $font_text_menu4;
+        color: black;
     }
 }
 //ajout police liste menu
