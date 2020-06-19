@@ -74,6 +74,7 @@ nav {
     a{
         color: $color_text_menu2;
         font-family: $font_text_menu2;
+        font-weight: bold;
     }
 }
 
@@ -82,6 +83,7 @@ nav {
     color: $color_text_menu3;
     h2{
         font-family: $font_title_menu3 ;
+        font-weight: normal;
     }
     a{
         color: $color_text_menu3;
@@ -184,6 +186,8 @@ ul{
     h1{
         color: $color_text_menu3;
         font-family: $font_title_menu3;
+        font-weight: normal;
+        font-size: 60px;
     }
     h2, li{
         font-family: $font_text_menu3;
@@ -196,11 +200,11 @@ ul{
     h1{
         color: $color_text_menu4;
         font-family: $font_title_menu4;
+        font-size: 60px;
     }
     h2, li{
         font-family: $font_text_menu4;
         color: black;
     }
 }
-//ajout police liste menu
 

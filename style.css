@@ -75,7 +75,7 @@ nav p {
   text-align: center;
 }
 .bloc_text_item h2 {
-  font-size: large;
+  font-size: x-large;
 }
 .bloc_text_item a:hover {
   opacity: 0.7;
@@ -118,6 +118,7 @@ nav p {
 #blocMenu2 a {
   color: #c77412;
   font-family: "Candida";
+  font-weight: bold;
 }
 
 #blocMenu3 {
@@ -125,11 +126,12 @@ nav p {
   color: #0887fb;
 }
 #blocMenu3 h2 {
-  font-family: "Dancing Script";
+  font-family: "Dancing Script", cursive;
+  font-weight: normal;
 }
 #blocMenu3 a {
   color: #0887fb;
-  font-family: "Segoe Print", "kalam";
+  font-family: "Segoe Print", "Kalam";
 }
 
 #blocMenu4 {
@@ -183,6 +185,7 @@ nav p {
 .bloc_card_style h2 {
   text-align: center;
   border-bottom: medium;
+  font-size: larger;
 }
 
 li {
@@ -252,10 +255,12 @@ ul {
 }
 #bloc_card_menu3 h1 {
   color: #0887fb;
-  font-family: "Dancing Script";
+  font-family: "Dancing Script", cursive;
+  font-weight: normal;
+  font-size: 60px;
 }
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
-  font-family: "Segoe Print", "kalam";
+  font-family: "Segoe Print", "Kalam";
   color: black;
 }
 
@@ -265,6 +270,7 @@ ul {
 #bloc_card_menu4 h1 {
   color: #72bf56;
   font-family: "Breech regular";
+  font-size: 60px;
 }
 #bloc_card_menu4 h2, #bloc_card_menu4 li {
   font-family: "Segoe Print", "Kalam";

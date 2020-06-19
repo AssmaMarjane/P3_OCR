@@ -55,7 +55,7 @@
 @mixin bloctext_item_home {
     margin-top: 40%;
     text-align: center;
-    h2 {font-size: large;
+    h2 {font-size:x-large;
     }
     a:hover{opacity: 0.7;
             zoom: 1.2;
@@ -127,6 +127,7 @@
 @mixin card_titleh2_border{ 
     text-align: center;
     border-bottom: medium;  
+    font-size: larger;
 }
 
 @mixin list_text_menu{
