@@ -11,7 +11,7 @@ header h1 {
   text-align: center;
   font-size: 50px;
   margin: 1%;
-  width: 100%;
+  width: 96%;
 }
 
 footer {
@@ -113,7 +113,7 @@ nav p {
   color: #c77412;
 }
 #blocMenu2 h2 {
-  font-family: "'Amita", cursive;
+  font-family: "Amita", cursive;
 }
 #blocMenu2 a {
   color: #c77412;
@@ -234,7 +234,7 @@ ul {
   background-color: #fce9fa;
 }
 #bloc_card_menu2 h1 {
-  font-family: "'Amita", cursive;
+  font-family: "Amita", cursive;
   color: #c77412;
 }
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
