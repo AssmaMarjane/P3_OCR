@@ -115,6 +115,12 @@
     margin: 5%;
 }
 
+@mixin card_titleh2_border{ 
+    text-align: center;
+    border-bottom: medium;  
+    font-size: medium;
+}
+
 @mixin card_titleh3_bottom{ 
     text-align: center;
     font-size:  medium;
@@ -124,23 +130,18 @@
 }
 
 
-@mixin card_titleh2_border{ 
-    text-align: center;
-    border-bottom: medium;  
-    font-size: larger;
-}
 
 @mixin list_text_menu{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: medium;
+    font-size: small;
 
     //pour les carte des menus avec plat face a prix
 }
 
 @mixin ul_bloc_menu{
     padding-left: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }

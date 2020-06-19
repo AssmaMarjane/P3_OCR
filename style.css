@@ -185,20 +185,20 @@ nav p {
 .bloc_card_style h2 {
   text-align: center;
   border-bottom: medium;
-  font-size: larger;
+  font-size: medium;
 }
 
 li {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: medium;
+  font-size: small;
 }
 
 ul {
   padding-left: 0;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 #bloc_card_menu1 {
@@ -257,7 +257,7 @@ ul {
   color: #0887fb;
   font-family: "Dancing Script", cursive;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 40px;
 }
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
   font-family: "Segoe Print";
@@ -270,7 +270,7 @@ ul {
 #bloc_card_menu4 h1 {
   color: #64b24f;
   font-family: "Kaushan Script", cursive;
-  font-size: 60px;
+  font-size: 40px;
 }
 #bloc_card_menu4 h2, #bloc_card_menu4 li {
   font-family: "Segoe Print";
