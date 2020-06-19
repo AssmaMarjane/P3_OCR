@@ -113,7 +113,7 @@ nav p {
   color: #c77412;
 }
 #blocMenu2 h2 {
-  font-family: "Quilla regular";
+  font-family: "'Amita", cursive;
 }
 #blocMenu2 a {
   color: #c77412;
@@ -135,14 +135,14 @@ nav p {
 }
 
 #blocMenu4 {
-  background-color: #c6fdb2;
-  color: #48c71a;
+  background-color: #fdfffd;
+  color: #64b24f;
 }
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
 }
 #blocMenu4 a {
-  color: #48c71a;
+  color: #64b24f;
   font-family: "Segoe Print";
 }
 
@@ -234,7 +234,7 @@ ul {
   background-color: #fce9fa;
 }
 #bloc_card_menu2 h1 {
-  font-family: "Quilla regular";
+  font-family: "'Amita", cursive;
   color: #c77412;
 }
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
@@ -265,10 +265,10 @@ ul {
 }
 
 #bloc_card_menu4 {
-  background-color: #c6fdb2;
+  background-color: #fdfffd;
 }
 #bloc_card_menu4 h1 {
-  color: #48c71a;
+  color: #64b24f;
   font-family: "Kaushan Script", cursive;
   font-size: 60px;
 }
