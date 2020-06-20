@@ -138,11 +138,11 @@ nav p {
 
 #blocMenu3 {
   background-color: #edeffa;
-  color: #0887fb;
 }
 #blocMenu3 h2 {
   font-family: "Dancing Script", cursive;
   font-weight: normal;
+  background: linear-gradient(to left, #1a5d9b, #0887fb 80%);
 }
 #blocMenu3 a {
   color: #0887fb;
@@ -282,7 +282,7 @@ ul {
   background-color: #edeffa;
 }
 #bloc_card_menu3 h1 {
-  color: #0887fb;
+  color: linear-gradient(to left, #1a5d9b, #0887fb 80%);
   font-family: "Dancing Script", cursive;
   font-weight: normal;
   font-size: 40px;
