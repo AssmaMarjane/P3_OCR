@@ -2,6 +2,7 @@
 @mixin headfoot_rules {
     background-color: $color_background_headfoot;
     color: $color_text_headfoot;
+    font-family: $font_title_header;
 }
 
 @mixin footer_rules {
