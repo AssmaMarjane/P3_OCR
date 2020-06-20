@@ -55,12 +55,14 @@
 @mixin bloctext_item_home {
     margin-top: 40%;
     text-align: center;
-    h2 {font-size:x-large;
+    h2 {font-size:xx-large;
+        margin-bottom: 3%;
     }
     a:hover{opacity: 0.7;
             zoom: 1.2;
     }
-    p{ font-size: x-large; 
+    p{ font-size: xx-large; 
+        margin: 3%;
     }
 }
 

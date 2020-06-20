@@ -48,19 +48,24 @@ nav {
 #blocMenu1{
     background-color: $color_background_menu1;
     color: $color_text_menu1;
+    .bloc_text_item{
+        margin-top: 30%;
+    }
+    i{
+        color: $color_picto_menu1 ;
+        text-decoration:solid ;
+        font-size: 35px;
+    }
     h2{
         font-family: $font_title_menu1 ;
+        font-size: 35px ;
+        font-weight: normal;
+        margin-top: 3%;
     }
     a{
         color: $color_text_menu1;
         font-family: $font_text_menu1;
         font-weight: bold ;
-    }
-    i{
-        color: $color_picto_menu1 ;
-        text-decoration:solid ;
-        height: 10px;
-        margin-bottom: 0;
     }
 
 }
@@ -70,6 +75,7 @@ nav {
     color : $color_text_menu2;
     h2{
         font-family: $font_title_menu2 ;
+        font-size: x-large;
     }
     a{
         color: $color_text_menu2;

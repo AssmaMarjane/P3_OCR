@@ -75,14 +75,16 @@ nav p {
   text-align: center;
 }
 .bloc_text_item h2 {
-  font-size: x-large;
+  font-size: xx-large;
+  margin-bottom: 3%;
 }
 .bloc_text_item a:hover {
   opacity: 0.7;
   zoom: 1.2;
 }
 .bloc_text_item p {
-  font-size: x-large;
+  font-size: xx-large;
+  margin: 3%;
 }
 .bloc_text_item a {
   text-decoration: none;
@@ -93,19 +95,24 @@ nav p {
   background-color: #f7c7c1;
   color: #3d1319;
 }
+#blocMenu1 .bloc_text_item {
+  margin-top: 30%;
+}
+#blocMenu1 i {
+  color: #f5606a;
+  text-decoration: solid;
+  font-size: 35px;
+}
 #blocMenu1 h2 {
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 3%;
 }
 #blocMenu1 a {
   color: #3d1319;
   font-family: "Segoe Print";
   font-weight: bold;
-}
-#blocMenu1 i {
-  color: #f5606a;
-  text-decoration: solid;
-  height: 10px;
-  margin-bottom: 0;
 }
 
 #blocMenu2 {
@@ -114,10 +121,11 @@ nav p {
 }
 #blocMenu2 h2 {
   font-family: "Amita", cursive;
+  font-size: x-large;
 }
 #blocMenu2 a {
   color: #c77412;
-  font-family: "Candida";
+  font-family: "PT Serif", serif;
   font-weight: bold;
 }
 
@@ -251,7 +259,7 @@ ul {
   font-size: medium;
 }
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
-  font-family: "Candida";
+  font-family: "PT Serif", serif;
 }
 #bloc_card_menu2 #blocEntrée_menu2 {
   color: #c67412;
