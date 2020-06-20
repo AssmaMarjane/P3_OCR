@@ -53,6 +53,9 @@ nav {
     .bloc_text_item{
         margin-top: 30%;
     }
+    p{
+        margin: 0;
+    }
     i{
         color: $color_picto_menu1 ;
         text-decoration:solid ;
@@ -62,7 +65,7 @@ nav {
         font-family: $font_title_menu1 ;
         font-size: 35px ;
         font-weight: normal;
-        margin-top: 3%;
+        margin-top: 0%;
     }
     a{
         color: $color_text_menu1;
