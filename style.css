@@ -6,19 +6,18 @@ body {
 header {
   background-color: #579c87;
   color: #fdcb46;
-  font-family: "Archivo Black", sans-serif;
 }
 header h1 {
   text-align: center;
   font-size: 50px;
   margin: 1%;
   width: 96%;
+  font-family: "Almarai", sans-serif;
 }
 
 footer {
   background-color: #579c87;
   color: #fdcb46;
-  font-family: "Archivo Black", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -32,9 +31,9 @@ footer {
 footer a {
   background-color: #579c87;
   color: #fdcb46;
-  font-family: "Archivo Black", sans-serif;
   text-decoration: none;
   text-align: center;
+  font-family: "Noto Sans", sans-serif;
 }
 
 #homeBody {
@@ -59,11 +58,11 @@ nav {
   margin: 2%;
   background-color: #579c87;
   color: #fdcb46;
-  font-family: "Archivo Black", sans-serif;
 }
 nav p {
   text-align: center;
   font-size: larger;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .item_style {
@@ -93,6 +92,7 @@ nav p {
 .bloc_text_item a {
   text-decoration: none;
   text-align: center;
+  font-family: "Noto Sans", sans-serif;
 }
 
 #blocMenu1 {
