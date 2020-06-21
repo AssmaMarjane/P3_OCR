@@ -64,7 +64,6 @@ nav {
     h2{
         font-family: $font_title_menu1 ;
         font-size: 35px ;
-        font-weight: normal;
         margin-top: 0%;
     }
     a{
@@ -81,6 +80,7 @@ nav {
     h2{
         font-family: $font_title_menu2 ;
         font-size: x-large;
+        font-weight: bold;
     }
     a{
         color: $color_text_menu2;
@@ -93,8 +93,7 @@ nav {
     background-color: $color_background_menu3;
     h2{
         font-family: $font_title_menu3 ;
-        font-weight: normal;
-        background: $color_title_menu3;
+        color: $color_title_menu3;
 
     }
     a{
@@ -148,20 +147,21 @@ ul{
 //pge menu1
 #bloc_card_menu1{
     background-color: $color_background_menu1;
-    color: $color_text_menu1;
+   // width: 40%;height: 670px;
+    
     h1{
-        font-family: $font_title_menu1;
+    font-family: $font_title_menu1;
+    margin-top: 0;
+    margin-bottom: 5%;
+    }
+    i{
+    font-size: xx-large;
+    color: $color_picto_menu1;
+    margin-bottom: 0;
+    margin-top: 5%; //picto top
     }
     h2, li{
         font-family: $font_text_menu1;
-    }
-    i{
-        font-size: xx-large;
-        color: $color_picto_menu1;
-    }
-    ul{
-        padding-right: 0;
-        padding-left: 0;
     }
 }
 
@@ -174,7 +174,7 @@ ul{
         font-size: larger;
         color: $color_picto_menu1;
         margin-right: 2%;
-    }
+    } //picto bottom
 }
 //pge menu2
 #bloc_card_menu2{
@@ -182,6 +182,8 @@ ul{
     h1{
         font-family: $font_title_menu2;
         color: $color_text_menu2;
+        font-weight: bold;
+        font-size: 40px;
     }
     h2{
         font-size: large;
@@ -208,8 +210,6 @@ ul{
     h1{
         color: $color_title_menu3;
         font-family: $font_title_menu3;
-        font-weight: normal;
-        font-size: 40px;
     }
     h2, li{
         font-family: $font_text_menu3;
@@ -222,7 +222,6 @@ ul{
     h1{
         color: $color_text_menu4;
         font-family: $font_title_menu4;
-        font-size: 40px;
     }
     h2, li{
         font-family: $font_text_menu4;

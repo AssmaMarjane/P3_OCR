@@ -80,6 +80,7 @@ nav p {
 .bloc_text_item h2 {
   font-size: xx-large;
   margin-bottom: 3%;
+  font-weight: normal;
 }
 .bloc_text_item a:hover {
   opacity: 0.7;
@@ -113,7 +114,6 @@ nav p {
 #blocMenu1 h2 {
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
   font-size: 35px;
-  font-weight: normal;
   margin-top: 0%;
 }
 #blocMenu1 a {
@@ -129,6 +129,7 @@ nav p {
 #blocMenu2 h2 {
   font-family: "Amita", cursive;
   font-size: x-large;
+  font-weight: bold;
 }
 #blocMenu2 a {
   color: #c77412;
@@ -141,8 +142,7 @@ nav p {
 }
 #blocMenu3 h2 {
   font-family: "Dancing Script", cursive;
-  font-weight: normal;
-  background: linear-gradient(to left, #1a5d9b, #0887fb 80%);
+  color: #2739d6;
 }
 #blocMenu3 a {
   color: #0887fb;
@@ -151,13 +151,13 @@ nav p {
 
 #blocMenu4 {
   background-color: #fdfffd;
-  color: #64b24f;
+  color: #51bf55e8;
 }
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
 }
 #blocMenu4 a {
-  color: #64b24f;
+  color: #51bf55e8;
   font-family: "Segoe Print";
 }
 
@@ -166,7 +166,7 @@ nav p {
   flex-direction: column;
   text-align: center;
   align-self: center;
-  height: 939px;
+  height: 1200px;
   margin: 0;
 }
 
@@ -185,8 +185,8 @@ nav p {
 .bloc_card_style {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
-  width: 40%;
-  height: 670px;
+  width: 65%;
+  height: 900px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
@@ -194,9 +194,9 @@ nav p {
 }
 .bloc_card_style h1 {
   text-align: center;
-  font-size: xx-large;
-  margin: 5%;
-  margin-bottom: 10%;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10%;
 }
 .bloc_card_style h2 {
   text-align: center;
@@ -212,38 +212,33 @@ li {
 }
 
 ul {
-  padding-left: 0;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 #bloc_card_menu1 {
   background-color: #f7c7c1;
-  color: #3d1319;
 }
 #bloc_card_menu1 h1 {
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
-}
-#bloc_card_menu1 h2, #bloc_card_menu1 li {
-  font-family: "Segoe Print";
+  margin-top: 0;
+  margin-bottom: 5%;
 }
 #bloc_card_menu1 i {
   font-size: xx-large;
   color: #f5606a;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
-#bloc_card_menu1 ul {
-  padding-right: 0;
-  padding-left: 0;
+#bloc_card_menu1 h2, #bloc_card_menu1 li {
+  font-family: "Segoe Print";
 }
 
 #blocTitle_bottom h3 {
   text-align: center;
-  font-size: medium;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  font-size: x-large;
+  font-size: 20px;
+  font-weight: normal;
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
 }
 #blocTitle_bottom i {
@@ -258,6 +253,8 @@ ul {
 #bloc_card_menu2 h1 {
   font-family: "Amita", cursive;
   color: #c77412;
+  font-weight: bold;
+  font-size: 40px;
 }
 #bloc_card_menu2 h2 {
   font-size: large;
@@ -282,10 +279,8 @@ ul {
   background-color: #edeffa;
 }
 #bloc_card_menu3 h1 {
-  color: linear-gradient(to left, #1a5d9b, #0887fb 80%);
+  color: #2739d6;
   font-family: "Dancing Script", cursive;
-  font-weight: normal;
-  font-size: 40px;
 }
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
   font-family: "Segoe Print";
@@ -296,9 +291,8 @@ ul {
   background-color: #fdfffd;
 }
 #bloc_card_menu4 h1 {
-  color: #64b24f;
+  color: #51bf55e8;
   font-family: "Kaushan Script", cursive;
-  font-size: 40px;
 }
 #bloc_card_menu4 h2, #bloc_card_menu4 li {
   font-family: "Segoe Print";

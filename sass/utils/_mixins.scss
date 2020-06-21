@@ -59,6 +59,7 @@
     text-align: center;
     h2 {font-size:xx-large;
         margin-bottom: 3%;
+        font-weight: normal;
     }
     a:hover{opacity: 0.7;
             zoom: 1.2;
@@ -86,7 +87,7 @@
     flex-direction: column;
     text-align: center;  
     align-self: center;
-    height: 939px;
+    height: 1200px;
     margin: 0;
 }
 
@@ -107,8 +108,8 @@
 @mixin bloc_card_menu{
     border: solid rgba(150, 107, 107, 0.027);
     text-align: center;
-    width: 40%;
-    height: 670px;
+    width: 65%;
+    height: 900px;
     align-self: center;
     margin: 5%;
     margin-top: 2%;
@@ -117,9 +118,9 @@
 
 @mixin card_titleh1_top{ 
     text-align: center;
-    font-size: xx-large ;
-    margin: 5%;
-    margin-bottom: 10%;
+    font-size: 50px ;
+    font-weight: normal;
+    margin: 10%;
 }
 
 @mixin card_titleh2_border{ 
@@ -130,10 +131,8 @@
 
 @mixin card_titleh3_bottom{ 
     text-align: center;
-    font-size:  medium;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    font-size: x-large;
+    font-size: 20px ;
+    font-weight: normal;
 }
 
 
@@ -148,9 +147,7 @@
 }
 
 @mixin ul_bloc_menu{
-    padding-left: 0;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    margin: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
