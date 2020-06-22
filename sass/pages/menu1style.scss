@@ -17,6 +17,11 @@
     h2, li{
         font-family: $font_text_menu1;
     }
+    .underlineTitle::before, .underlineTitle::after{
+        border-bottom-color: $color_text_menu1;
+        font-family: $font_text_menu1;
+    }
+
 }
 
 #blocTitle_bottom{

@@ -9,4 +9,8 @@
         font-family: $font_text_menu3;
         color: black;
     }
+    .underlineTitle::before, .underlineTitle::after{
+            border-bottom-color: $color_text_menu3;
+        }
+
 }
