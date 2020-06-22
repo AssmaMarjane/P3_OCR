@@ -1,0 +1,30 @@
+
+#blocMenu1{
+    background-color: $color_background_menu1;
+    color: $color_text_menu1;
+    .bloc_text_item{
+        margin-top: 30%;
+    }
+    p{
+        margin: 0;
+    }
+    i{
+        color: $color_picto_menu1 ;
+        text-decoration:solid ;
+        font-size: 35px;
+    }
+    h2{
+        font-family: $font_title_menu1 ;
+        font-size: 35px ;
+        margin-top: 0%;
+    }
+    a{
+        color: $color_text_menu1;
+        font-family: $font_text_menu1;
+        font-weight: bold ;
+    }
+}
+
+
+
+

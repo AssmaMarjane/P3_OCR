@@ -1,40 +1,33 @@
-@import "../sass/utils/variables";
-@import "../sass/utils/mixins";
 
-header
-{
-    @include headfoot_rules ;
+#bloc_card_menu1{
+    background-color: $color_background_menu1;
+   // width: 40%;height: 670px;
+    
+    h1{
+    font-family: $font_title_menu1;
+    margin-top: 0;
+    margin-bottom: 5%;
+    }
+    i{
+    font-size: 50px;
+    color: $color_picto_menu1;
+    margin-bottom: 0;
+    margin-top: 5%; //picto top
+    }
+    h2, li{
+        font-family: $font_text_menu1;
+    }
 }
 
-footer
-{
-    @include headfoot_rules ;
-    @include footer_rules ;
-}
-
-.page_menu
-{
-    @include page_rules ; 
-}
-
-#bloc_card_menu
-{
-    @include bloc_card_menu ;
-    //ajout police et couleur
-}
-#bloc_card_menu h1
-{
-   @include card_titleh1_top ;
-}
-#bloc_card_menu h3
-{
-    @include card_titleh3_bottom 
-}
-#bloc_card_menu h2
-{
-    @include list_titleh2-border
-}
-li
-{
-    @include list_text_menu;
+#blocTitle_bottom{
+    h3{
+        @include card_titleh3_bottom ; 
+        font-family: $font_title_menu1;
+    }
+    i{
+        font-size: larger;
+        color: $color_picto_menu1;
+        margin-right: 1%;
+        margin-top: 1%;
+    } //picto bottom
 }

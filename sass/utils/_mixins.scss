@@ -126,8 +126,8 @@
     margin-top: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px; 
     .underlineTitle:hover{
-        transition:900ms linear;
-        transform: skew(left 180 , right 180);
+       // transition:900ms linear;
+        //transform: skew(left 180 , right 180);
         text-decoration: underline;
         text-decoration-color: black;
         text-decoration-style: solid , 15px;

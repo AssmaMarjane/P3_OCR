@@ -1,0 +1,29 @@
+
+.page_menu{
+    @include page_rules ; 
+}
+.page_main{
+    @include mainPage_rules ;
+     h1{
+        @include titlemain_rules;
+    }
+}
+
+.bloc_card_style{
+    @include bloc_card_menu ;
+    h1{
+        @include card_titleh1_top ;
+    }
+    h2{
+        @include card_titleh2_border ; 
+
+    }
+}
+
+li{
+     @include list_text_menu;
+}
+ 
+ul{
+    @include ul_bloc_menu;
+}

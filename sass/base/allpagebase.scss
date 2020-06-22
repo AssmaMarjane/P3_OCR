@@ -1,0 +1,23 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    @include headfoot_rules ;
+    h1{
+        @include titlelogo_header_rules;
+        font-family: $font_title_header;
+
+    }
+}
+
+footer{
+    @include headfoot_rules ;
+    @include footer_rules ;
+    a{
+        @include headfoot_rules ;
+        @include link_home;
+    }
+}
+

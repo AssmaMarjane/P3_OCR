@@ -1,0 +1,26 @@
+
+#homeBody{
+    @include home_rules ;
+}
+
+#homeMain{
+    @include mainHome_rules ;
+}
+
+nav {
+    @include nav_home ;
+    @include headfoot_rules ;
+}
+
+.item_style{
+    @include item_home_rules ;
+}
+
+.bloc_text_item{
+    @include bloctext_item_home;
+    a{
+        @include link_home ;
+    }
+
+}
+

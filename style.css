@@ -104,6 +104,67 @@ nav p {
   font-family: "Noto Sans", sans-serif;
 }
 
+.page_menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  height: 1200px;
+  margin: 0;
+}
+
+.page_main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+}
+.page_main h1 {
+  margin-bottom: 0%;
+  margin-top: 5%;
+  font-size: xx-large;
+}
+
+.bloc_card_style {
+  border: solid rgba(150, 107, 107, 0.027);
+  text-align: center;
+  width: 65%;
+  height: 900px;
+  align-self: center;
+  margin: 5%;
+  margin-top: 2%;
+  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+}
+.bloc_card_style .underlineTitle:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: solid, 15px;
+}
+.bloc_card_style h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10%;
+}
+.bloc_card_style h2 {
+  text-align: center;
+  border-bottom: medium;
+  font-size: medium;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+ul {
+  margin: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 #blocMenu1 {
   background-color: #f7c7c1;
   color: #3d1319;
@@ -167,69 +228,6 @@ nav p {
 #blocMenu4 a {
   color: #51bf55e8;
   font-family: "Segoe Print";
-}
-
-.page_menu {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-self: center;
-  height: 1200px;
-  margin: 0;
-}
-
-.page_main {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-self: center;
-}
-.page_main h1 {
-  margin-bottom: 0%;
-  margin-top: 5%;
-  font-size: xx-large;
-}
-
-.bloc_card_style {
-  border: solid rgba(150, 107, 107, 0.027);
-  text-align: center;
-  width: 65%;
-  height: 900px;
-  align-self: center;
-  margin: 5%;
-  margin-top: 2%;
-  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-}
-.bloc_card_style .underlineTitle:hover {
-  transition: 900ms linear;
-  transform: skew(left 180, right 180);
-  text-decoration: underline;
-  text-decoration-color: black;
-  text-decoration-style: solid, 15px;
-}
-.bloc_card_style h1 {
-  text-align: center;
-  font-size: 50px;
-  font-weight: normal;
-  margin: 10%;
-}
-.bloc_card_style h2 {
-  text-align: center;
-  border-bottom: medium;
-  font-size: medium;
-}
-
-li {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: small;
-}
-
-ul {
-  margin: 5%;
-  padding-left: 7%;
-  padding-right: 7%;
 }
 
 #bloc_card_menu1 {

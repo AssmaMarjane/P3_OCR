@@ -1,12 +1,18 @@
 
-#bloc_card_menu3{
+#blocMenu3{
     background-color: $color_background_menu3;
-    h1{
+    h2{
+        font-family: $font_title_menu3 ;
         color: $color_title_menu3;
-        font-family: $font_title_menu3;
+
     }
-    h2, li{
+    a{
+        color: $color_text_menu3;
         font-family: $font_text_menu3;
-        color: black;
     }
 }
+
+
+
+
+

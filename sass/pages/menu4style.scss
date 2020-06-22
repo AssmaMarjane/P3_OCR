@@ -1,40 +1,12 @@
-@import "../sass/utils/variables";
-@import "../sass/utils/mixins";
 
-header
-{
-    @include headfoot_rules ;
-}
-
-footer
-{
-    @include headfoot_rules ;
-    @include footer_rules ;
-}
-
-.page_menu
-{
-    @include page_rules ; 
-}
-
-#bloc_card_menu
-{
-    @include bloc_card_menu ;
-    //ajout police et couleur
-}
-#bloc_card_menu h1
-{
-   @include card_titleh1_top ;
-}
-#bloc_card_menu h3
-{
-    @include card_titleh3_bottom 
-}
-#bloc_card_menu h2
-{
-    @include list_titleh2-border
-}
-li
-{
-    @include list_text_menu;
+#bloc_card_menu4{
+    background-color: $color_background_menu4;
+    h1{
+        color: $color_text_menu4;
+        font-family: $font_title_menu4;
+    }
+    h2, li{
+        font-family: $font_text_menu4;
+        color: black;
+    }
 }
