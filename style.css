@@ -1,17 +1,313 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import "./base/menucardstyle.scss" ;
- *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
- *   '
- *   sass\main.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import \"./base/menucardstyle.scss\" ;\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.scss 6:9  root stylesheet";
+@charset "UTF-8";
+body {
+  margin: 0;
 }
+
+header {
+  background-color: #579c87;
+  color: #fdcb46;
+}
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 1%;
+  width: 96%;
+  font-family: "Almarai", sans-serif;
+}
+
+footer {
+  background-color: #579c87;
+  color: #fdcb46;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 50px;
+  position: sticky;
+  bottom: 0;
+}
+footer .shakeLink:hover {
+  transform: rotate(-360deg);
+  transition: transform 600ms ease-in-out;
+}
+footer a {
+  background-color: #579c87;
+  color: #fdcb46;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#homeBody {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#homeMain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2%;
+  width: 80%;
+  align-self: center;
+}
+
+nav {
+  align-self: center;
+  width: 30%;
+  border-radius: 10px;
+  margin: 2%;
+  background-color: #579c87;
+  color: #fdcb46;
+}
+nav p {
+  text-align: center;
+  font-size: larger;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.item_style {
+  border: solid rgba(150, 107, 107, 0.027);
+  height: 400px;
+  width: 30%;
+  margin: 2%;
+  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+}
+
+.bloc_text_item {
+  margin-top: 35%;
+  text-align: center;
+}
+.bloc_text_item h2 {
+  font-size: xx-large;
+  margin-bottom: 3%;
+  font-weight: normal;
+}
+.bloc_text_item p {
+  font-size: xx-large;
+  margin: 3%;
+}
+.bloc_text_item .scaleLink {
+  transition: transform;
+  transition-duration: 400ms;
+}
+.bloc_text_item .scaleLink:hover {
+  transform: scale(1.5);
+  opacity: 0.7;
+}
+.bloc_text_item a {
+  text-decoration: none;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.page_menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center;
+  height: 1200px;
+  margin: 0;
+}
+
+.page_main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-self: center;
+}
+.page_main h1 {
+  margin-bottom: 0%;
+  margin-top: 5%;
+  font-size: xx-large;
+}
+
+.bloc_card_style {
+  border: solid rgba(150, 107, 107, 0.027);
+  text-align: center;
+  width: 65%;
+  height: 900px;
+  align-self: center;
+  margin: 5%;
+  margin-top: 2%;
+  box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+}
+.bloc_card_style .underlineTitle:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-decoration-style: solid, 15px;
+}
+.bloc_card_style h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10%;
+}
+.bloc_card_style h2 {
+  text-align: center;
+  border-bottom: medium;
+  font-size: medium;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+
+ul {
+  margin: 5%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+#blocMenu1 {
+  background-color: #f7c7c1;
+  color: #3d1319;
+}
+#blocMenu1 .bloc_text_item {
+  margin-top: 30%;
+}
+#blocMenu1 p {
+  margin: 0;
+}
+#blocMenu1 i {
+  color: #f5606a;
+  text-decoration: solid;
+  font-size: 35px;
+}
+#blocMenu1 h2 {
+  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  font-size: 35px;
+  margin-top: 0%;
+}
+#blocMenu1 a {
+  color: #3d1319;
+  font-family: "Segoe Print";
+  font-weight: bold;
+}
+
+#blocMenu2 {
+  background-color: #fce9fa;
+  color: #c77412;
+}
+#blocMenu2 h2 {
+  font-family: "Amita", cursive;
+  font-size: x-large;
+  font-weight: bold;
+}
+#blocMenu2 a {
+  color: #c77412;
+  font-family: "Taviraj", serif;
+  font-weight: bold;
+}
+
+#blocMenu3 {
+  background-color: #edeffa;
+}
+#blocMenu3 h2 {
+  font-family: "Dancing Script", cursive;
+  color: #2739d6;
+}
+#blocMenu3 a {
+  color: #0887fb;
+  font-family: "Segoe Print";
+}
+
+#blocMenu4 {
+  background-color: #fdfffd;
+  color: #51bf55e8;
+}
+#blocMenu4 h2 {
+  font-family: "Kaushan Script", cursive;
+}
+#blocMenu4 a {
+  color: #51bf55e8;
+  font-family: "Segoe Print";
+}
+
+#bloc_card_menu1 {
+  background-color: #f7c7c1;
+}
+#bloc_card_menu1 h1 {
+  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+#bloc_card_menu1 i {
+  font-size: 50px;
+  color: #f5606a;
+  margin-bottom: 0;
+  margin-top: 5%;
+}
+#bloc_card_menu1 h2, #bloc_card_menu1 li {
+  font-family: "Segoe Print";
+}
+
+#blocTitle_bottom h3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+}
+#blocTitle_bottom i {
+  font-size: larger;
+  color: #f5606a;
+  margin-right: 1%;
+  margin-top: 1%;
+}
+
+#bloc_card_menu2 {
+  background-color: #fce9fa;
+}
+#bloc_card_menu2 h1 {
+  font-family: "Amita", cursive;
+  color: #c77412;
+  font-weight: bold;
+  font-size: 40px;
+}
+#bloc_card_menu2 h2 {
+  font-size: large;
+}
+#bloc_card_menu2 h2, #bloc_card_menu2 li {
+  font-family: "Taviraj", serif;
+}
+#bloc_card_menu2 #blocEntrée_menu2 {
+  color: #c67412;
+}
+#bloc_card_menu2 #blocPlat_menu2 {
+  color: #a56799;
+}
+#bloc_card_menu2 #blocDessert_menu2 {
+  color: #6e4ccc;
+}
+
+#bloc_card_menu3 {
+  background-color: #edeffa;
+}
+#bloc_card_menu3 h1 {
+  color: #2739d6;
+  font-family: "Dancing Script", cursive;
+}
+#bloc_card_menu3 h2, #bloc_card_menu3 li {
+  font-family: "Segoe Print";
+  color: black;
+}
+
+#bloc_card_menu4 {
+  background-color: #fdfffd;
+}
+#bloc_card_menu4 h1 {
+  color: #51bf55e8;
+  font-family: "Kaushan Script", cursive;
+}
+#bloc_card_menu4 h2, #bloc_card_menu4 li {
+  font-family: "Segoe Print";
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
