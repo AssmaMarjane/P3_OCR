@@ -84,15 +84,17 @@
 }
 
 @mixin nav_home{
+    display: flex;
+    flex-direction: row;
     align-self: center;
     width: 30%;
     border-radius: 10px;
     margin: 2%;
-    transition: transform;
-    transition-duration: 1000ms;
-    .loadingNav:hover {
-        transform: scaleX(1);
-        animation-name: loading_nav;
+    .loadingNav{
+        transition-timing-function: ease ;
+        animation: 1000ms loading infinite;
+        animation-iteration-count: infinite;
+
 
     }
     p{  text-align: center;
