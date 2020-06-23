@@ -93,13 +93,14 @@ nav {
   background-color: #579c87;
   color: #fdcb46;
 }
+nav .textLoading {
+  margin-left: 30%;
+}
 nav .loadingNav {
-  transition-timing-function: ease;
   animation: 1000ms loading infinite;
   animation-iteration-count: infinite;
 }
 nav p {
-  text-align: center;
   font-size: larger;
   font-family: "Noto Sans", sans-serif;
 }
@@ -167,23 +168,19 @@ nav p {
   margin: 5%;
   margin-top: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-  transition: transform;
-  transition-duration: 400ms;
 }
 .bloc_card_style .underlineTitle:hover {
-  transition: 900ms linear;
-  transform: skew(left 180, right 180);
   text-decoration: underline;
   text-decoration-color: black;
   text-decoration-style: solid, 15px;
 }
-.bloc_card_style .underlineTitle {
+.bloc_card_style .border {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.bloc_card_style .underlineTitle:before {
+.bloc_card_style .border:before {
   content: "";
   border-bottom: 5px ridge;
   height: 2px;
@@ -191,7 +188,7 @@ nav p {
   display: block;
   margin-right: 5%;
 }
-.bloc_card_style .underlineTitle:after {
+.bloc_card_style .border:after {
   content: "";
   border-bottom: 5px ridge;
   width: 45%;
