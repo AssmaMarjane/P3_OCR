@@ -15,10 +15,16 @@
     position: sticky;
     bottom: 0;
     .shakeLink:hover{
-        transform: rotate(-360deg);
-        transition: transform 600ms ease-in-out;
-        //skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )
+        animation: 400ms shake infinite;
+        animation-iteration-count: infinite;
     }
+    
+        //transform: skew();
+        //transition: transform 600ms ease-in-out;
+        //animation: shakeLink 0.82s cubic-bezier(.36,.07,.19,.97) both;
+        //transform: translate3d(0, 0, 0);
+        //skew( [ <angle> | <zero> ] , [ <angle> | <zero> ]? )
+
 }
 
 @mixin titlelogo_header_rules {
@@ -83,7 +89,8 @@
     border-radius: 10px;
     margin: 2%;
     transition: transform;
-    .loadingNav:active{
+    transition-duration: 1000ms;
+    .loadingNav:hover {
         transform: scaleX(1);
         animation-name: loading_nav;
 

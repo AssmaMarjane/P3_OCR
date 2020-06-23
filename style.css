@@ -19,6 +19,26 @@
     transform: scaleX(1);
   }
 }
+@keyframes shake {
+  10% {
+    transform: skewX(-20deg);
+  }
+  30% {
+    transform: skewX(20deg);
+  }
+  50% {
+    transform: skewX(-20deg);
+  }
+  70% {
+    transform: skewX(20deg);
+  }
+  20% {
+    transform: skewX(0deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
 body {
   margin: 0;
 }
@@ -49,8 +69,8 @@ footer {
   bottom: 0;
 }
 footer .shakeLink:hover {
-  transform: rotate(-360deg);
-  transition: transform 600ms ease-in-out;
+  animation: 400ms shake infinite;
+  animation-iteration-count: infinite;
 }
 footer a {
   background-color: #579c87;
@@ -81,10 +101,11 @@ nav {
   border-radius: 10px;
   margin: 2%;
   transition: transform;
+  transition-duration: 1000ms;
   background-color: #579c87;
   color: #fdcb46;
 }
-nav .loadingNav:active {
+nav .loadingNav:hover {
   transform: scaleX(1);
   animation-name: loading_nav;
 }
