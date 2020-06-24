@@ -4,9 +4,12 @@
    // width: 40%;height: 670px;
     
     h1{
-    font-family: $font_title_menu1;
-    margin-top: 0;
-    margin-bottom: 3%;
+        font-family: $font_title_menu1;
+        margin-top: 0;
+        margin-bottom: 3%;
+        span{
+            font-family: $font_span_menu1;
+        }
     }
     i{
     font-size: 50px;
@@ -35,6 +38,9 @@
         @include card_titleh3_bottom ; 
         font-family: $font_title_menu1;
         margin-bottom: 10%;
+        span{
+            font-family: $font_span_menu1;
+        }
     }
     i{
         font-size: larger;

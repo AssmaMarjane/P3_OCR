@@ -215,7 +215,7 @@ ul {
 }
 
 #blocMenu1 {
-  background-color: #f7c7c1;
+  background-color: #fccfcf;
   color: #3d1319;
 }
 #blocMenu1 .bloc_text_item {
@@ -230,9 +230,12 @@ ul {
   font-size: 35px;
 }
 #blocMenu1 h2 {
-  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  font-family: "Ma Shan Zheng", cursive;
   font-size: 35px;
   margin-top: 0%;
+}
+#blocMenu1 h2 span {
+  font-family: "Devonshire", cursive;
 }
 #blocMenu1 a {
   color: #3d1319;
@@ -280,12 +283,15 @@ ul {
 }
 
 #bloc_card_menu1 {
-  background-color: #f7c7c1;
+  background-color: #fccfcf;
 }
 #bloc_card_menu1 h1 {
-  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  font-family: "Ma Shan Zheng", cursive;
   margin-top: 0;
   margin-bottom: 3%;
+}
+#bloc_card_menu1 h1 span {
+  font-family: "Devonshire", cursive;
 }
 #bloc_card_menu1 i {
   font-size: 50px;
@@ -311,8 +317,11 @@ ul {
   text-align: center;
   font-size: 30px;
   font-weight: normal;
-  font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  font-family: "Ma Shan Zheng", cursive;
   margin-bottom: 10%;
+}
+#blocTitle_bottom h3 span {
+  font-family: "Devonshire", cursive;
 }
 #blocTitle_bottom i {
   font-size: larger;
