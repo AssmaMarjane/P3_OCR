@@ -15,21 +15,21 @@
     }
     #blocEntrée_menu2 {
         color: $color_text_entreemenu2 ;
-        .underlineTitle::before, .underlineTitle::after{
+        .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_entreemenu2;
         }
     
     }
     #blocPlat_menu2{
         color: $color_text_platmenu2 ;
-        .underlineTitle::before, .underlineTitle::after{
+        .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_platmenu2;
         }
     
     }
     #blocDessert_menu2{
         color: $color_text_dessertmenu2;
-        .underlineTitle::before, .underlineTitle::after{
+        .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_dessertmenu2;
         }
     

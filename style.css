@@ -174,26 +174,19 @@ nav p {
   text-decoration-color: black;
   text-decoration-style: solid, 15px;
 }
-.bloc_card_style .border {
+.bloc_card_style .borderTitle {
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.bloc_card_style .border:before {
+.bloc_card_style .borderTitle:before, .bloc_card_style .borderTitle:after {
   content: "";
-  border-bottom: 5px ridge;
+  border-bottom: 5px solid;
   height: 2px;
-  width: 45%;
+  width: 30%;
   display: block;
-  margin-right: 5%;
-}
-.bloc_card_style .border:after {
-  content: "";
-  border-bottom: 5px ridge;
-  width: 45%;
-  display: block;
-  margin-left: 5%;
+  margin: 3%;
 }
 .bloc_card_style h1 {
   text-align: center;
@@ -203,7 +196,6 @@ nav p {
 }
 .bloc_card_style h2 {
   text-align: center;
-  border-bottom: medium;
   font-size: medium;
 }
 
@@ -215,7 +207,8 @@ li {
 }
 
 ul {
-  margin: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
   padding-left: 7%;
   padding-right: 7%;
 }
@@ -291,7 +284,7 @@ ul {
 #bloc_card_menu1 h1 {
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
   margin-top: 0;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 #bloc_card_menu1 i {
   font-size: 50px;
@@ -302,9 +295,15 @@ ul {
 #bloc_card_menu1 h2, #bloc_card_menu1 li {
   font-family: "Segoe Print";
 }
-#bloc_card_menu1 .underlineTitle::before, #bloc_card_menu1 .underlineTitle::after {
+#bloc_card_menu1 .borderTitle::before, #bloc_card_menu1 .borderTitle::after {
   border-bottom-color: #3d1319;
   font-family: "Segoe Print";
+}
+#bloc_card_menu1 .borderTitle::before {
+  margin-left: 7%;
+}
+#bloc_card_menu1 .borderTitle::after {
+  margin-right: 7%;
 }
 
 #blocTitle_bottom h3 {
@@ -312,6 +311,7 @@ ul {
   font-size: 30px;
   font-weight: normal;
   font-family: "'Devonshire", "Ma Shan Zheng", cursive;
+  margin-bottom: 10%;
 }
 #blocTitle_bottom i {
   font-size: larger;
@@ -338,19 +338,19 @@ ul {
 #bloc_card_menu2 #blocEntrée_menu2 {
   color: #c67412;
 }
-#bloc_card_menu2 #blocEntrée_menu2 .underlineTitle::before, #bloc_card_menu2 #blocEntrée_menu2 .underlineTitle::after {
+#bloc_card_menu2 #blocEntrée_menu2 .borderTitle::before, #bloc_card_menu2 #blocEntrée_menu2 .borderTitle::after {
   border-bottom-color: #c67412;
 }
 #bloc_card_menu2 #blocPlat_menu2 {
   color: #a56799;
 }
-#bloc_card_menu2 #blocPlat_menu2 .underlineTitle::before, #bloc_card_menu2 #blocPlat_menu2 .underlineTitle::after {
+#bloc_card_menu2 #blocPlat_menu2 .borderTitle::before, #bloc_card_menu2 #blocPlat_menu2 .borderTitle::after {
   border-bottom-color: #a56799;
 }
 #bloc_card_menu2 #blocDessert_menu2 {
   color: #6e4ccc;
 }
-#bloc_card_menu2 #blocDessert_menu2 .underlineTitle::before, #bloc_card_menu2 #blocDessert_menu2 .underlineTitle::after {
+#bloc_card_menu2 #blocDessert_menu2 .borderTitle::before, #bloc_card_menu2 #blocDessert_menu2 .borderTitle::after {
   border-bottom-color: #6e4ccc;
 }
 
@@ -365,7 +365,7 @@ ul {
   font-family: "Segoe Print";
   color: black;
 }
-#bloc_card_menu3 .underlineTitle::before, #bloc_card_menu3 .underlineTitle::after {
+#bloc_card_menu3 .borderTitle::before, #bloc_card_menu3 .borderTitle::after {
   border-bottom-color: #0887fb;
 }
 
@@ -380,7 +380,7 @@ ul {
   font-family: "Segoe Print";
   color: black;
 }
-#bloc_card_menu4 .underlineTitle::before, #bloc_card_menu4 .underlineTitle::after {
+#bloc_card_menu4 .borderTitle::before, #bloc_card_menu4 .borderTitle::after {
   border-bottom-color: #51bf55e8;
 }
 

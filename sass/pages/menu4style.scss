@@ -9,7 +9,7 @@
         font-family: $font_text_menu4;
         color: black;
     }
-    .underlineTitle::before, .underlineTitle::after{
+    .borderTitle::before, .borderTitle::after{
         border-bottom-color: $color_text_menu4;
     }
 }

@@ -6,7 +6,7 @@
     h1{
     font-family: $font_title_menu1;
     margin-top: 0;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     }
     i{
     font-size: 50px;
@@ -17,9 +17,15 @@
     h2, li{
         font-family: $font_text_menu1;
     }
-    .underlineTitle::before, .underlineTitle::after{
+    .borderTitle::before, .borderTitle::after{
         border-bottom-color: $color_text_menu1;
         font-family: $font_text_menu1;
+    }
+    .borderTitle::before{
+        margin-left: 7%;
+    }
+    .borderTitle::after{
+        margin-right: 7%;
     }
 
 }
@@ -28,6 +34,7 @@
     h3{
         @include card_titleh3_bottom ; 
         font-family: $font_title_menu1;
+        margin-bottom: 10%;
     }
     i{
         font-size: larger;

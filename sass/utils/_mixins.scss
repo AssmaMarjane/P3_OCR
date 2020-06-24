@@ -143,28 +143,21 @@
         text-decoration-color: black;
         text-decoration-style: solid , 15px;
     } 
-    .border{
+    .borderTitle{
         margin:auto;
         display:flex;
         align-items:center;
         justify-content:space-between;
     }
     //padding:20px;
-    .border:before{ //a gauche
+    .borderTitle:before , .borderTitle:after{ //a gauche
         content:'';
-        border-bottom:5px ridge;
+        border-bottom:5px solid;
         height:2px;
-        width:45%;
+        width:30%;
         display:block;
-        margin-right:5%;
+        margin:3%;
     }
-    .border:after{ //a droite
-        content:'';
-        border-bottom:5px ridge ;
-        width:45%;
-        display:block;
-        margin-left:5%;
-    } 
 
 }
 
@@ -177,7 +170,6 @@
 
 @mixin card_titleh2_border{ 
     text-align: center;
-    border-bottom: medium;  
     font-size: medium;
       // .test{height:1rem;
 }
@@ -199,7 +191,8 @@
 }
 
 @mixin ul_bloc_menu{
-    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
     padding-left: 7%;
     padding-right: 7%;
 }
