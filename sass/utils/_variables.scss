@@ -27,10 +27,14 @@ $color_background_menu4:  #fdfffd ;
 $font_title_header: "Almarai", sans-serif;
 $font_link_footer: "Noto Sans", sans-serif ;
 
+//concerne titre h1 présent sur toutes les pages
+
+$font_title_page : "Noto Sans", sans-serif;
+
 //concerne les polices propres a chaque menu
 
 $font_title_menu1: "'Devonshire","Ma Shan Zheng", cursive; // font ddl et lien en index
-$font_text_menu1 : "Segoe Print" ; //font ddl
+$font_text_menu1 : "Segoe Print", "Caveat" ; //font ddl
 
 
 $font_title_menu2: "Amita", cursive; // font ddl et lien index
@@ -38,8 +42,8 @@ $font_text_menu2:"Taviraj", serif;//font ddl  et lien index dans dossier
 
 
 $font_title_menu3:"Dancing Script", cursive; //font ddl et lien en index
-$font_text_menu3 : "Segoe Print"; // font ddl
+$font_text_menu3 : "Segoe Print", "Caveat"; // font ddl
 
 
 $font_title_menu4: "Kaushan Script", cursive; //font ddl et lien index
-$font_text_menu4 : "Segoe Print" ; //font ddl
+$font_text_menu4 : "Segoe Print", "Caveat" ; //font ddl
