@@ -12,4 +12,9 @@
     .borderTitle::before, .borderTitle::after{
         border-bottom-color: $color_text_menu4;
     }
+    .underlineTitle::before{
+        content: '';
+        background-color: $color_text_menu4;
+    }
+
 }

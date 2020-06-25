@@ -18,6 +18,11 @@
         .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_entreemenu2;
         }
+        .underlineTitle::before{
+            content: '';
+            background-color: $color_text_entreemenu2;
+        }
+    
     
     }
     #blocPlat_menu2{
@@ -25,6 +30,11 @@
         .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_platmenu2;
         }
+        .underlineTitle::before{
+            content: '';
+            background-color: $color_text_platmenu2;
+        }
+    
     
     }
     #blocDessert_menu2{
@@ -32,6 +42,12 @@
         .borderTitle::before, .borderTitle::after{
             border-bottom-color: $color_text_dessertmenu2;
         }
+        .underlineTitle::before{
+            content: '';
+            background-color: $color_text_dessertmenu2;
+        }
     
-    }    
+    
+    } 
+   
 }

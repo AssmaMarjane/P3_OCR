@@ -138,20 +138,14 @@
     margin: 5%;
     margin-top: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-    .underlineTitle:hover{
-        //animation: 150ms loading linear;
-        text-decoration: underline;
-        text-decoration-color: black;
-        text-decoration-style: solid , 15px;
-    } 
+    
     .borderTitle{
         margin:auto;
         display:flex;
         align-items:center;
-        justify-content:space-between;
+        justify-content:center;
     }
-    //padding:20px;
-    .borderTitle:before , .borderTitle:after{ //a gauche
+    .borderTitle:before , .borderTitle:after{
         content:'';
         border-bottom:5px solid;
         height:2px;
@@ -160,6 +154,25 @@
         margin:3%;
     }
 
+    .underlineTitle{
+        position: relative;
+    }
+  
+    .underlineTitle::before{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 2px;
+        transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+    }
+  
+    .underlineTitle:hover::before{
+      left: 0;
+      right: auto;
+      width: 100%;
+    }
 }
 
 @mixin card_titleh1_top{ 
@@ -170,9 +183,13 @@
 }
 
 @mixin card_titleh2_border{ 
-    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
     font-size: medium;
+    width: 25%;
       // .test{height:1rem;
+        
 }
 
 

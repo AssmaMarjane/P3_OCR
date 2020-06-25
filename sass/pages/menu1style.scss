@@ -30,6 +30,10 @@
     .borderTitle::after{
         margin-right: 7%;
     }
+    .underlineTitle::before{
+        content: '';
+        background-color: $color_text_menu1;
+    }
 
 }
 

@@ -170,16 +170,11 @@ nav p {
   margin-top: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
 }
-.bloc_card_style .underlineTitle:hover {
-  text-decoration: underline;
-  text-decoration-color: black;
-  text-decoration-style: solid, 15px;
-}
 .bloc_card_style .borderTitle {
   margin: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .bloc_card_style .borderTitle:before, .bloc_card_style .borderTitle:after {
   content: "";
@@ -189,6 +184,23 @@ nav p {
   display: block;
   margin: 3%;
 }
+.bloc_card_style .underlineTitle {
+  position: relative;
+}
+.bloc_card_style .underlineTitle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.bloc_card_style .underlineTitle:hover::before {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
 .bloc_card_style h1 {
   text-align: center;
   font-size: 50px;
@@ -196,8 +208,11 @@ nav p {
   margin: 10%;
 }
 .bloc_card_style h2 {
-  text-align: center;
+  display: flex;
+  position: relative;
+  justify-content: center;
   font-size: medium;
+  width: 25%;
 }
 
 li {
@@ -263,7 +278,7 @@ ul {
 }
 #blocMenu3 h2 {
   font-family: "Dancing Script", cursive;
-  color: #2739d6;
+  color: #3247ff;
 }
 #blocMenu3 a {
   color: #0887fb;
@@ -272,13 +287,13 @@ ul {
 
 #blocMenu4 {
   background-color: #fdfffd;
-  color: #51bf55e8;
+  color: #55cd59;
 }
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
 }
 #blocMenu4 a {
-  color: #51bf55e8;
+  color: #55cd59;
   font-family: "Segoe Print", "Caveat";
 }
 
@@ -311,6 +326,10 @@ ul {
 }
 #bloc_card_menu1 .borderTitle::after {
   margin-right: 7%;
+}
+#bloc_card_menu1 .underlineTitle::before {
+  content: "";
+  background-color: #3d1319;
 }
 
 #blocTitle_bottom h3 {
@@ -351,11 +370,19 @@ ul {
 #bloc_card_menu2 #blocEntrée_menu2 .borderTitle::before, #bloc_card_menu2 #blocEntrée_menu2 .borderTitle::after {
   border-bottom-color: #c67412;
 }
+#bloc_card_menu2 #blocEntrée_menu2 .underlineTitle::before {
+  content: "";
+  background-color: #c67412;
+}
 #bloc_card_menu2 #blocPlat_menu2 {
   color: #a56799;
 }
 #bloc_card_menu2 #blocPlat_menu2 .borderTitle::before, #bloc_card_menu2 #blocPlat_menu2 .borderTitle::after {
   border-bottom-color: #a56799;
+}
+#bloc_card_menu2 #blocPlat_menu2 .underlineTitle::before {
+  content: "";
+  background-color: #a56799;
 }
 #bloc_card_menu2 #blocDessert_menu2 {
   color: #6e4ccc;
@@ -363,12 +390,16 @@ ul {
 #bloc_card_menu2 #blocDessert_menu2 .borderTitle::before, #bloc_card_menu2 #blocDessert_menu2 .borderTitle::after {
   border-bottom-color: #6e4ccc;
 }
+#bloc_card_menu2 #blocDessert_menu2 .underlineTitle::before {
+  content: "";
+  background-color: #6e4ccc;
+}
 
 #bloc_card_menu3 {
   background-color: #edeffa;
 }
 #bloc_card_menu3 h1 {
-  color: #2739d6;
+  color: #3247ff;
   font-family: "Dancing Script", cursive;
 }
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
@@ -378,12 +409,16 @@ ul {
 #bloc_card_menu3 .borderTitle::before, #bloc_card_menu3 .borderTitle::after {
   border-bottom-color: #0887fb;
 }
+#bloc_card_menu3 .underlineTitle::before {
+  content: "";
+  background-color: #0887fb;
+}
 
 #bloc_card_menu4 {
   background-color: #fdfffd;
 }
 #bloc_card_menu4 h1 {
-  color: #51bf55e8;
+  color: #55cd59;
   font-family: "Kaushan Script", cursive;
 }
 #bloc_card_menu4 h2, #bloc_card_menu4 li {
@@ -391,7 +426,11 @@ ul {
   color: black;
 }
 #bloc_card_menu4 .borderTitle::before, #bloc_card_menu4 .borderTitle::after {
-  border-bottom-color: #51bf55e8;
+  border-bottom-color: #55cd59;
+}
+#bloc_card_menu4 .underlineTitle::before {
+  content: "";
+  background-color: #55cd59;
 }
 
 /*# sourceMappingURL=style.css.map */
