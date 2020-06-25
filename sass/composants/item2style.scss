@@ -5,11 +5,18 @@
     h2{
         font-family: $font_title_menu2 ;
         font-size: larger;
+
     }
     a{
         color: $color_text_menu2;
         font-family: $font_text_menu2;
         font-weight: bold;
+    }
+    .bloc_text_item:hover{
+        @media all and (max-width: 320px) {
+            transform: scale(1.1);;
+        }
+
     }
 }
 

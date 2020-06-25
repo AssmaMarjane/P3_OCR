@@ -60,6 +60,11 @@ footer .shakeLink:hover {
   animation: 400ms shake infinite;
   animation-iteration-count: infinite;
 }
+@media all and (max-width: 320px) {
+  footer .shakeLink {
+    font-size: medium;
+  }
+}
 footer a {
   background-color: #579c87;
   color: #fdcb46;
@@ -82,6 +87,18 @@ footer a {
   width: 80%;
   align-self: center;
 }
+@media all and (max-width: 320px) {
+  #homeMain {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  #homeMain {
+    align-items: center;
+  }
+}
 
 nav {
   display: flex;
@@ -96,6 +113,11 @@ nav {
 nav .textLoading {
   margin-left: 30%;
 }
+@media all and (max-width: 768px) {
+  nav .textLoading {
+    margin-left: 20%;
+  }
+}
 nav .loadingNav {
   animation: 1000ms loading infinite;
   animation-iteration-count: infinite;
@@ -104,6 +126,26 @@ nav p {
   font-size: larger;
   font-family: "Noto Sans", sans-serif;
 }
+@media all and (max-width: 320px) {
+  nav p {
+    font-size: small;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  nav p {
+    font-size: medium;
+  }
+}
+@media all and (max-width: 320px) {
+  nav {
+    width: 55%;
+  }
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  nav {
+    width: 52%;
+  }
+}
 
 .item_style {
   border: solid rgba(150, 107, 107, 0.027);
@@ -111,6 +153,18 @@ nav p {
   width: 30%;
   margin: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+}
+@media all and (min-width: 320px) and (max-width: 768px) {
+  .item_style {
+    width: 75%;
+    height: 335px;
+  }
+}
+@media all and (max-width: 320px) {
+  .item_style {
+    height: 325px;
+    width: 78%;
+  }
 }
 
 .bloc_text_item {
@@ -123,14 +177,29 @@ nav p {
   transform: scale(1.3);
   opacity: 0.7;
 }
+@media all and (max-width: 320px) {
+  .bloc_text_item:hover {
+    transform: scale(1.13);
+  }
+}
 .bloc_text_item h2 {
   font-size: xx-large;
   margin-bottom: 3%;
   font-weight: normal;
 }
+@media all and (max-width: 320px) {
+  .bloc_text_item h2 {
+    font-size: x-large;
+  }
+}
 .bloc_text_item p {
   font-size: xx-large;
   margin: 3%;
+}
+@media all and (max-width: 320px) {
+  .bloc_text_item p {
+    font-size: x-large;
+  }
 }
 .bloc_text_item a {
   text-decoration: none;
@@ -270,6 +339,11 @@ ul {
   color: #c77412;
   font-family: "Taviraj", "Merriweather", serif;
   font-weight: bold;
+}
+@media all and (max-width: 320px) {
+  #blocMenu2 .bloc_text_item:hover {
+    transform: scale(1.1);
+  }
 }
 
 #blocMenu3 {
