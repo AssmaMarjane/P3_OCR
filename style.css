@@ -164,7 +164,7 @@ nav p {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 65%;
-  height: 900px;
+  height: 950px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
@@ -263,13 +263,12 @@ ul {
   color: #c77412;
 }
 #blocMenu2 h2 {
-  font-family: "Amita", cursive;
-  font-size: x-large;
-  font-weight: bold;
+  font-family: "Croissant One", cursive;
+  font-size: larger;
 }
 #blocMenu2 a {
   color: #c77412;
-  font-family: "Taviraj", serif;
+  font-family: "Taviraj", "Merriweather", serif;
   font-weight: bold;
 }
 
@@ -338,6 +337,7 @@ ul {
   font-weight: normal;
   font-family: "Ma Shan Zheng", cursive;
   margin-bottom: 10%;
+  margin-top: 7%;
 }
 #blocTitle_bottom h3 span {
   font-family: "Devonshire", cursive;
@@ -353,16 +353,17 @@ ul {
   background-color: #fce9fa;
 }
 #bloc_card_menu2 h1 {
-  font-family: "Amita", cursive;
+  font-family: "Croissant One", cursive;
   color: #c77412;
   font-weight: bold;
   font-size: 40px;
 }
 #bloc_card_menu2 h2 {
   font-size: large;
+  width: 33%;
 }
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
-  font-family: "Taviraj", serif;
+  font-family: "Taviraj", "Merriweather", serif;
 }
 #bloc_card_menu2 #blocEntrée_menu2 {
   color: #c67412;
