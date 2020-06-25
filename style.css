@@ -111,12 +111,7 @@ nav {
   color: #fdcb46;
 }
 nav .textLoading {
-  margin-left: 30%;
-}
-@media all and (max-width: 768px) {
-  nav .textLoading {
-    margin-left: 20%;
-  }
+  margin-left: 20%;
 }
 nav .loadingNav {
   animation: 1000ms loading infinite;
