@@ -37,10 +37,20 @@ header {
 }
 header h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 47px;
   margin: 1%;
   width: 96%;
   font-family: "Almarai", sans-serif;
+}
+@media all and (max-width: 460px) {
+  header h1 {
+    font-size: 35px;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
 }
 
 footer {
@@ -60,9 +70,20 @@ footer .shakeLink:hover {
   animation: 400ms shake infinite;
   animation-iteration-count: infinite;
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 460px) {
+  footer .shakeLink {
+    font-size: smaller;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
   footer .shakeLink {
     font-size: medium;
+    margin-top: 5%;
+  }
+}
+@media all and (max-width: 768px) {
+  footer {
+    height: 37px;
   }
 }
 footer a {
@@ -87,14 +108,14 @@ footer a {
   width: 80%;
   align-self: center;
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 460px) {
   #homeMain {
     flex-direction: column;
     align-items: center;
     width: 95%;
   }
 }
-@media all and (min-width: 320px) and (max-width: 768px) {
+@media all and (min-width: 460px) and (max-width: 768px) {
   #homeMain {
     align-items: center;
   }
@@ -174,7 +195,12 @@ nav p {
 }
 @media all and (max-width: 460px) {
   .bloc_text_item:hover {
-    transform: scale(1.13);
+    transform: scale(1.17);
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  .bloc_text_item:hover {
+    transform: scale(1.1);
   }
 }
 .bloc_text_item h2 {
@@ -335,9 +361,14 @@ ul {
   font-family: "Taviraj", "Merriweather", serif;
   font-weight: bold;
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 460px) {
   #blocMenu2 .bloc_text_item:hover {
     transform: scale(1.1);
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  #blocMenu2 .bloc_text_item:hover {
+    transform: scale(1.11);
   }
 }
 
