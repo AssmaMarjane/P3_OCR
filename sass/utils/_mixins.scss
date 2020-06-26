@@ -177,6 +177,14 @@
     align-self: center;
     height: 1200px;
     margin: 0;
+    @media all and (max-width: 460px) {
+        height: 800px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        height: 900px;
+ 
+    }
+
 }
 
 @mixin mainPage_rules {
@@ -190,6 +198,13 @@
     margin-top: 5%;
     font-size: xx-large;
     font-family: $font_title_page;
+    @media all and (max-width: 460px) {
+        font-size: 23px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        font-size: 27px;
+    }
+
     //ajouter police
 }
 
@@ -203,6 +218,18 @@
     margin: 5%;
     margin-top: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+    @media all and (max-width: 460px) {
+        width: 85%;
+        height: 700px;
+    
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        width: 80%;
+        height: 900px;
+    }
+ 
+    }
+
     
     .borderTitle{
         margin:auto;
@@ -238,13 +265,20 @@
       right: auto;
       width: 100%;
     }
-}
+
 
 @mixin card_titleh1_top{ 
     text-align: center;
     font-size: 50px ;
     font-weight: normal;
     margin: 10%;
+    @media all and (max-width: 460px) {
+        font-size: 30px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        font-size: 40px;
+    }
+
 }
 
 @mixin card_titleh2_border{ 
@@ -254,6 +288,13 @@
     font-size: medium;
     width: 25%;
       // .test{height:1rem;
+    @media all and (max-width: 460px) {
+        font-size: 14px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        font-size: 17px;
+    }
+    
         
 }
 
@@ -262,6 +303,13 @@
     text-align: center;
     font-size: 30px ;
     font-weight: normal;
+    @media all and (max-width: 460px) {
+        font-size: 10px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        font-size: 13px;
+    }
+
 }
 
 @mixin list_text_menu{
@@ -269,6 +317,13 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: small;
+    @media all and (max-width: 460px) {
+        font-size: 10px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        font-size: 15px;
+    }
+
 
     //pour les carte des menus avec plat face a prix
 }
@@ -278,4 +333,15 @@
     margin-bottom: 3%;
     padding-left: 7%;
     padding-right: 7%;
+    @media all and (max-width: 460px) {
+        padding-left: 3%;
+        padding-right: 3%;
+    
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        padding-left: 5%;
+        padding-right: 5%;
+    
+    }
+
 }
