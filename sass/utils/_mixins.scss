@@ -143,14 +143,27 @@
     margin: 2%;
     .textLoading{
         margin-left: 20%;
+        //position: relative;
+            opacity: 0; 
+            animation: dot 1.3s infinite; 
+            animation-delay: 0.0s; 
+            opacity: 0; 
+            animation: dot 1.3s infinite;
+            animation-delay: 0.2s;
+            opacity: 0; 
+            animation: dot 1.3s infinite; 
+            animation-delay: 0.3s; 
+        
     }
-    .loadingNav{
-        animation: 1000ms loading infinite;
-        animation-iteration-count: infinite;
-    }
+
+    //////.loadingNav{
+        //animation: 1000ms loading infinite;
+       // animation-iteration-count: infinite;
+    //}
     p{  
         font-size: larger;
         font-family: $font_link_footer;
+    
         @media all and (max-width: 460px) {
             font-size: small;
         }
@@ -229,8 +242,6 @@
     }
  
     }
-
-    
     .borderTitle{
         margin:auto;
         display:flex;

@@ -1,7 +1,10 @@
-@keyframes loading{
-    from {transform: scaleX(0);}
-    to {transform: scaleY(1);}
-}
+//@keyframes ellipsis { to { width: 20px; } } 
+@keyframes dot {
+    0% { opacity: 0; } 
+    50% { opacity: 0; } 
+    100% { opacity: 1; } 
+} 
+
 
 @keyframes shake {
     10% { transform: translateX(3px); }

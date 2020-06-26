@@ -35,12 +35,15 @@
   width: 100%;
 }
 
-@keyframes loading {
-  from {
-    transform: scaleX(0);
+@keyframes dot {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: scaleY(1);
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @keyframes shake {
@@ -169,10 +172,15 @@ nav {
 }
 nav .textLoading {
   margin-left: 20%;
-}
-nav .loadingNav {
-  animation: 1000ms loading infinite;
-  animation-iteration-count: infinite;
+  opacity: 0;
+  animation: dot 1.3s infinite;
+  animation-delay: 0s;
+  opacity: 0;
+  animation: dot 1.3s infinite;
+  animation-delay: 0.2s;
+  opacity: 0;
+  animation: dot 1.3s infinite;
+  animation-delay: 0.3s;
 }
 nav p {
   font-size: larger;
