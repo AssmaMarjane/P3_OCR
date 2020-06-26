@@ -4,12 +4,12 @@
 }
 
 @keyframes shake {
-    10% { transform: skewX(-20deg); }
-    30% { transform: skewX(20deg); }
-    50% { transform: skewX(-20deg); }
-    70% { transform: skewX(20deg); }
-    20% { transform: skewX(0deg); }
-    100% { transform: skewX(0deg); }  
+    10% { transform: translateX(3px); }
+    30% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    70% { transform: translateX(-3px); }
+    80% { transform: translateX(3px); }
+    100% { transform: translateX(-3px); }  
 }
 
     //.underlineTitle:hover{
