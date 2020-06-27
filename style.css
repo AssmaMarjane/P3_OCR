@@ -35,15 +35,21 @@
   width: 100%;
 }
 
-@keyframes dot {
+@keyframes dott {
   0% {
-    opacity: 0;
+    content: "";
+  }
+  25% {
+    content: ".";
   }
   50% {
-    opacity: 0;
+    content: "..";
+  }
+  75% {
+    content: "...";
   }
   100% {
-    opacity: 1;
+    content: ".";
   }
 }
 @keyframes shake {
@@ -90,6 +96,10 @@ header h1 {
   header h1 {
     font-size: 40px;
   }
+}
+header h1 a {
+  text-decoration: none;
+  color: #fdcb46;
 }
 
 footer {
@@ -172,15 +182,21 @@ nav {
 }
 nav .textLoading {
   margin-left: 20%;
-  opacity: 0;
-  animation: dot 1.3s infinite;
-  animation-delay: 0s;
-  opacity: 0;
-  animation: dot 1.3s infinite;
-  animation-delay: 0.2s;
-  opacity: 0;
-  animation: dot 1.3s infinite;
-  animation-delay: 0.3s;
+}
+@media all and (max-width: 460px) {
+  nav .textLoading {
+    margin-left: 12%;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  nav .textLoading {
+    margin-left: 15%;
+  }
+}
+nav .textLoading:after {
+  display: inline-block;
+  animation: dott steps(1, end) 1s infinite;
+  content: "";
 }
 nav p {
   font-size: larger;
@@ -214,16 +230,16 @@ nav p {
   margin: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
 }
-@media all and (min-width: 460px) and (max-width: 768px) {
-  .item_style {
-    width: 55%;
-    height: 370px;
-  }
-}
 @media all and (max-width: 460px) {
   .item_style {
     height: 325px;
     width: 78%;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  .item_style {
+    width: 60%;
+    height: 370px;
   }
 }
 

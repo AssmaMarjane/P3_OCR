@@ -7,10 +7,11 @@
     @include mainHome_rules ;
 }
 
-nav {
+nav{
     @include nav_home ;
     @include headfoot_rules ;
 }
+
 
 .item_style{
     @include item_home_rules ;

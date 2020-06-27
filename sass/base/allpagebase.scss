@@ -8,7 +8,6 @@ header{
     h1{
         @include titlelogo_header_rules;
         font-family: $font_title_header;
-
     }
 }
 

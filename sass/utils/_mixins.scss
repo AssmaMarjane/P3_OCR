@@ -47,6 +47,10 @@
     @media all and (min-width: 460px) and (max-width: 768px){
         font-size: 40px;
     }
+    a{
+        text-decoration: none;
+        color:$color_text_headfoot ;
+    }
 
 }
 
@@ -71,10 +75,7 @@
     }
     @media all and (min-width: 460px) and (max-width: 768px){
         align-items: center;
-
     }
-
-
 }
 
 @mixin link_home {
@@ -91,16 +92,14 @@
     width: 30%;
     margin: 2%;
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-    @media all and (min-width: 460px) and (max-width: 768px){
-        width: 55%;
-        height: 370px;
-    }
     @media all and (max-width: 460px) {
         height: 325px;
         width: 78%;
-    
     }
-
+    @media all and (min-width: 460px) and (max-width: 768px){
+        width: 60%;
+        height: 370px;
+    }
 }
 
 @mixin bloctext_item_home {
@@ -143,33 +142,26 @@
     margin: 2%;
     .textLoading{
         margin-left: 20%;
-        //position: relative;
-            opacity: 0; 
-            animation: dot 1.3s infinite; 
-            animation-delay: 0.0s; 
-            opacity: 0; 
-            animation: dot 1.3s infinite;
-            animation-delay: 0.2s;
-            opacity: 0; 
-            animation: dot 1.3s infinite; 
-            animation-delay: 0.3s; 
-        
+        @media all and (max-width: 460px) {
+            margin-left: 12%;
+        }
+        @media all and (min-width: 460px) and (max-width: 768px){
+            margin-left: 15%;
+        }
     }
-
-    //////.loadingNav{
-        //animation: 1000ms loading infinite;
-       // animation-iteration-count: infinite;
-    //}
+    .textLoading:after {
+        display: inline-block;
+        animation: dott steps(1,end) 1s infinite;
+        content: '';
+    }
     p{  
         font-size: larger;
         font-family: $font_link_footer;
-    
         @media all and (max-width: 460px) {
             font-size: small;
         }
         @media all and (min-width: 460px) and (max-width: 768px){
             font-size: medium;
-    
         }
     }
     @media all and (max-width: 460px) {
@@ -177,9 +169,7 @@
     }
     @media all and (min-width: 460px) and (max-width: 768px){
         width: 38%;
-
     }
-
 }
 
 //a partir de cette ligne ne concerne que les pages menus
@@ -234,13 +224,11 @@
     @media all and (max-width: 460px) {
         width: 85%;
         height: 700px;
-    
     }
     @media all and (min-width: 460px) and (max-width: 768px){
         width: 80%;
         height: 900px;
     }
- 
     }
     .borderTitle{
         margin:auto;
