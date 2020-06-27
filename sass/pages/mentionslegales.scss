@@ -1,0 +1,19 @@
+.page_mentions{
+    @include mainPage_rules ;
+}
+
+article {
+    @include bloc_card_menu ;
+    @include headfoot_rules;
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size: smaller; ; 
+
+    }
+    p{
+        font-size: small;
+    }
+
+}

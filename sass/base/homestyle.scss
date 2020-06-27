@@ -15,13 +15,14 @@ nav{
 
 .item_style{
     @include item_home_rules ;
+    a{
+        @include link_home ;
+    }
+
 }
 
 .bloc_text_item{
     @include bloctext_item_home;
-    a{
-        @include link_home ;
-    }
 
 }
 

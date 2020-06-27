@@ -17,6 +17,7 @@ footer{
     a{
         @include headfoot_rules ;
         @include link_home;
+        font-family: $font_link_footer;
     }
 }
 

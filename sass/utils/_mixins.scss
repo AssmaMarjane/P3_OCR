@@ -81,9 +81,6 @@
 @mixin link_home {
     text-decoration: none;
     text-align: center;
-    font-family: $font_link_footer;
-
-
 }
 
 @mixin item_home_rules {
@@ -103,7 +100,7 @@
 }
 
 @mixin bloctext_item_home {
-    margin-top: 35%;
+    margin-top: 45%;
     text-align: center;
     transition: transform;
     transition-duration: 400ms;
@@ -286,7 +283,6 @@
     justify-content: center;
     font-size: medium;
     width: 25%;
-      // .test{height:1rem;
     @media all and (max-width: 460px) {
         font-size: 14px;
     }
