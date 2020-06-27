@@ -297,7 +297,7 @@ nav p {
 }
 @media all and (max-width: 460px) {
   .page_menu {
-    height: 800px;
+    height: 860px;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
@@ -342,7 +342,7 @@ nav p {
 @media all and (max-width: 460px) {
   .bloc_card_style {
     width: 85%;
-    height: 700px;
+    height: 860px;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
@@ -668,7 +668,7 @@ article {
 @media all and (max-width: 460px) {
   article {
     width: 85%;
-    height: 700px;
+    height: 860px;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
