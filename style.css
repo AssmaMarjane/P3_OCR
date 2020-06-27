@@ -230,13 +230,13 @@ nav p {
   margin: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
 }
-@media all and (max-width: 460px) {
+@media all and (max-width: 360px) {
   .item_style {
     height: 325px;
     width: 78%;
   }
 }
-@media all and (min-width: 460px) and (max-width: 768px) {
+@media all and (min-width: 360px) and (max-width: 768px) {
   .item_style {
     width: 60%;
     height: 370px;
