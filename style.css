@@ -228,7 +228,7 @@ nav p {
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   .bloc_text_item:hover {
-    transform: scale(0.8);
+    transform: scale(0.5);
   }
 }
 .bloc_text_item h2 {
@@ -715,79 +715,48 @@ ul {
   width: 100%;
   align-self: center;
 }
+@media all and (max-width: 330px) {
+  .page_mentions {
+    height: 1240px;
+  }
+}
+@media all and (min-width: 330px) and (min-width: 640px) {
+  .page_mentions {
+    height: 1260px;
+  }
+}
+@media all and (min-width: 640px) and (max-width: 768px) {
+  .page_mentions {
+    height: 1281px;
+  }
+}
 
 article {
+  background-color: #579c87;
+  color: #fdcb46;
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 65%;
-  height: 950px;
+  height: 1032px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-  background-color: #579c87;
-  color: #fdcb46;
 }
-@media all and (max-width: 460px) {
+@media all and (max-width: 330px) {
   article {
-    width: 93%;
-    height: 580px;
-    margin: 3%;
+    height: 1150px;
   }
 }
-@media (min-width: 460px) and (max-width: 580px) {
+@media all and (min-width: 330px) and (min-width: 640px) {
   article {
-    width: 85%;
-    height: 705px;
-    margin: 3%;
+    height: 1090px;
   }
 }
-@media all and (min-width: 580px) and (max-width: 800px) {
+@media all and (min-width: 640px) and (max-width: 768px) {
   article {
-    width: 80%;
-    height: 760px;
+    height: 1021px;
   }
-}
-article .borderTitle {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-article .borderTitle:before, article .borderTitle:after {
-  content: "";
-  border-bottom: 5px solid;
-  height: 2px;
-  width: 30%;
-  display: block;
-  margin: 3%;
-}
-@media all and (max-width: 460px) {
-  article .borderTitle:before, article .borderTitle:after {
-    border-bottom: 2px solid;
-  }
-}
-@media all and (min-width: 460px) and (max-width: 768px) {
-  article .borderTitle:before, article .borderTitle:after {
-    border-bottom: 3px solid;
-  }
-}
-article .underlineTitle {
-  position: relative;
-}
-article .underlineTitle::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 2px;
-  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-}
-article .underlineTitle:hover::before {
-  left: 0;
-  right: auto;
-  width: 100%;
 }
 article h1 {
   font-size: large;
@@ -797,6 +766,11 @@ article h2 {
 }
 article p {
   font-size: small;
+}
+@media all and (max-width: 460px) {
+  article p {
+    font-size: x-small;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
