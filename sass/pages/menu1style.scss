@@ -18,9 +18,11 @@
     margin-top: 5%; //picto top
     @media all and (max-width: 460px) {
         font-size: 20px;
+        margin-top: 3%;
     }
     @media (min-width: 460px) and (max-width: 580px){
         font-size: 30px;
+        margin-top: 4%;
     }
     @media all and (min-width: 580px) and (max-width: 800px){
         font-size: 40px;

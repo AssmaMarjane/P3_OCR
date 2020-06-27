@@ -6,10 +6,24 @@
         color: $color_text_menu2;
         font-weight: bold;
         font-size: 40px;
+        @media all and (max-width: 460px) {
+            font-size: 20px;
+        }
+        @media all and (min-width: 460px) and (max-width: 768px){
+            font-size: 30px;
+        }
+        
     }
     h2{
         font-size: large;
         width: 33%;
+        @media all and (max-width: 460px) {
+            font-size: smaller;
+        }
+        @media all and (min-width: 460px) and (max-width: 768px){
+            font-size: medium;
+        }
+    
     }
     h2, li{
         font-family: $font_text_menu2;
