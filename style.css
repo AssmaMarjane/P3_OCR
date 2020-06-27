@@ -228,7 +228,7 @@ nav p {
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   .bloc_text_item:hover {
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
 .bloc_text_item h2 {
