@@ -228,7 +228,7 @@ nav p {
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   .bloc_text_item:hover {
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 }
 .bloc_text_item h2 {
@@ -477,7 +477,7 @@ ul {
 }
 @media all and (max-width: 460px) {
   #blocMenu2 .bloc_text_item:hover {
-    transform: scale(1.11);
+    transform: scale(1.12);
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
