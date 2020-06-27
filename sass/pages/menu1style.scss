@@ -46,6 +46,12 @@
         content: '';
         background-color: $color_text_menu1;
     }
+    li{
+        @media all and (max-width: 460px) {
+            font-size: x-small;
+        }
+        
+    }
 
 }
 

@@ -211,7 +211,7 @@
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
     @media all and (max-width: 460px) {
         width: 93%;
-        height: 572px;
+        height: 580px;
         margin: 3%;
     }
     @media (min-width: 460px) and (max-width: 580px){
@@ -287,7 +287,7 @@
     font-size: medium;
     width: 25%;
     @media all and (max-width: 460px) {
-        font-size: x-small;
+        font-size: 13px;
     }
     @media all and (min-width: 460px) and (max-width: 768px){
         font-size: small;
