@@ -482,7 +482,7 @@ ul {
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   #blocMenu2 .bloc_text_item:hover {
-    transform: scale(1.11);
+    transform: scale(0.9);
   }
 }
 
