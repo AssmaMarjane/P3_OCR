@@ -12,14 +12,6 @@
         font-family: $font_text_menu2;
         font-weight: bold;
     }
-    .bloc_text_item:hover{
-        @media all and (max-width: 460px) {
-            transform: scale(0.85);
-        }
-        @media all and (min-width: 460px) and (max-width: 768px){
-            transform: scale(0.95);
-        }
-    }
 }
 
 
