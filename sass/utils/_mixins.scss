@@ -128,6 +128,11 @@
         }
 
     }
+    .gradient_text{
+        background: linear-gradient(to right, #eee 0%, #333 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 @mixin nav_home{
