@@ -737,29 +737,77 @@ article {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 65%;
-  height: 1032px;
+  height: 950px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+  height: 1032px;
 }
-@media all and (max-width: 330px) {
+@media all and (max-width: 460px) {
   article {
-    height: 1150px;
+    width: 93%;
+    height: 580px;
+    margin: 3%;
   }
 }
-@media all and (min-width: 330px) and (min-width: 640px) {
+@media (min-width: 460px) and (max-width: 580px) {
   article {
-    height: 1090px;
+    width: 85%;
+    height: 705px;
+    margin: 3%;
   }
 }
-@media all and (min-width: 640px) and (max-width: 768px) {
+@media all and (min-width: 580px) and (max-width: 800px) {
   article {
-    height: 1021px;
+    width: 80%;
+    height: 760px;
   }
+}
+article .borderTitle {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article .borderTitle:before, article .borderTitle:after {
+  content: "";
+  border-bottom: 5px solid;
+  height: 2px;
+  width: 30%;
+  display: block;
+  margin: 3%;
+}
+@media all and (max-width: 460px) {
+  article .borderTitle:before, article .borderTitle:after {
+    border-bottom: 2px solid;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  article .borderTitle:before, article .borderTitle:after {
+    border-bottom: 3px solid;
+  }
+}
+article .underlineTitle {
+  position: relative;
+}
+article .underlineTitle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+article .underlineTitle:hover::before {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 article h1 {
   font-size: large;
+  margin-bottom: 5%;
 }
 article h2 {
   font-size: smaller;

@@ -15,28 +15,12 @@
 
 article {
     @include headfoot_rules;
-    border: solid rgba(150, 107, 107, 0.027);
-    text-align: center;
-    width: 65%;
+    @include bloc_card_menu;  
     height: 1032px;
-    align-self: center;
-    margin: 5%;
-    margin-top: 2%;
-    box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
-
-    @media all and (max-width: 330px) {
-        height: 1150px;
-    }
-    @media all and (min-width: 330px) and (min-width: 640px) {
-        height: 1090px;
-    }
-
-    @media all and (min-width: 640px) and (max-width: 768px){
-        height: 1021px;
-    }
 
     h1{
         font-size: large;
+        margin-bottom: 5%;
     }
     h2{
         font-size: smaller;
