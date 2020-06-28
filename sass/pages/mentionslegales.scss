@@ -16,8 +16,6 @@
 article {
     @include headfoot_rules;
     @include bloc_card_menu;  
-    height: 1032px;
-
     h1{
         font-size: large;
         margin-bottom: 5%;
