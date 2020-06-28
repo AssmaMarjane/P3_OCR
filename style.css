@@ -794,6 +794,11 @@ article .underlineTitle:hover::before {
   right: auto;
   width: 100%;
 }
+@media all and (max-width: 460px) {
+  article {
+    height: 620px;
+  }
+}
 article h1 {
   font-size: large;
   margin-bottom: 5%;

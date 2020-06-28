@@ -16,6 +16,9 @@
 article {
     @include headfoot_rules;
     @include bloc_card_menu;  
+    @media all and (max-width: 460px) {
+        height: 620px;
+    }
     h1{
         font-size: large;
         margin-bottom: 5%;
