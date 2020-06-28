@@ -680,6 +680,18 @@ ul {
   background-color: #0887fb;
 }
 
+#blocEntrée_menu3 .borderTitle::before, #blocEntrée_menu3 .borderTitle::after {
+  border-bottom-color: #3247ff;
+}
+
+#blocPlat_menu3 .borderTitle::before, #blocPlat_menu3 .borderTitle::after {
+  border-bottom-color: #0887fb;
+}
+
+#blocDessert_menu3 .borderTitle::before, #blocDessert_menu3 .borderTitle::after {
+  border-bottom-color: #4aa6fb;
+}
+
 #bloc_card_menu4 {
   background-color: #fdfffd;
 }
