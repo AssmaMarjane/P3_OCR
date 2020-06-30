@@ -6,6 +6,10 @@
         color: $color_text_menu2;
         font-weight: bold;
         font-size: 40px;
+        background: linear-gradient(to right, $color_text_menu2 0%, $color_text_platmenu2 70%, $color_text_dessertmenu2 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
         @media all and (max-width: 460px) {
             font-size: 20px;
         }
@@ -17,6 +21,7 @@
     h2{
         font-size: large;
         width: 33%;
+    
         @media all and (max-width: 460px){
             font-size: small;
         }

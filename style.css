@@ -137,25 +137,16 @@ footer a {
 nav {
   display: flex;
   flex-direction: row;
+  align-items: center;
   align-self: center;
-  width: 30%;
-  border-radius: 10px;
+  width: 160px;
+  padding: 2px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin: 2%;
+  border-radius: 10px;
   background-color: #579c87;
   color: #fdcb46;
-}
-nav .textLoading {
-  margin-left: 20%;
-}
-@media all and (max-width: 460px) {
-  nav .textLoading {
-    margin-left: 12%;
-  }
-}
-@media all and (min-width: 460px) and (max-width: 768px) {
-  nav .textLoading {
-    margin-left: 15%;
-  }
 }
 nav .textLoading:after {
   display: inline-block;
@@ -212,8 +203,12 @@ nav p {
 }
 
 .bloc_text_item {
-  margin-top: 45%;
-  text-align: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   transition: transform;
   transition-duration: 400ms;
 }
@@ -231,10 +226,13 @@ nav p {
     transform: scale(1);
   }
 }
+.bloc_text_item a {
+  width: 100%;
+}
 .bloc_text_item h2 {
   font-size: xx-large;
-  margin-bottom: 3%;
   font-weight: normal;
+  width: 100%;
 }
 @media all and (max-width: 460px) {
   .bloc_text_item h2 {
@@ -249,11 +247,6 @@ nav p {
   .bloc_text_item p {
     font-size: x-large;
   }
-}
-.bloc_text_item .gradient_text {
-  background: linear-gradient(to right, #eee 0%, #333 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .page_menu {
@@ -291,7 +284,6 @@ nav p {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 65%;
-  height: 950px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;
@@ -420,8 +412,7 @@ li {
 }
 
 ul {
-  margin-top: 2%;
-  margin-bottom: 3%;
+  margin: 1%;
   padding-left: 7%;
   padding-right: 7%;
 }
@@ -441,9 +432,6 @@ ul {
 #blocMenu1 {
   background-color: #fccfcf;
   color: #3d1319;
-}
-#blocMenu1 .bloc_text_item {
-  margin-top: 30%;
 }
 #blocMenu1 p {
   margin: 0;
@@ -471,6 +459,11 @@ ul {
   background-color: #fce9fa;
   color: #c77412;
 }
+#blocMenu2 .gradient_text {
+  background: linear-gradient(to right, #c77412 0%, #a56799 70%, #6e4ccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #blocMenu2 h2 {
   font-family: "Croissant One", cursive;
   font-size: larger;
@@ -484,9 +477,14 @@ ul {
 #blocMenu3 {
   background-color: #edeffa;
 }
+#blocMenu3 .gradient_text {
+  background: linear-gradient(to right, #2339ff 0%, #2d97fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 #blocMenu3 h2 {
   font-family: "Dancing Script", cursive;
-  color: #3247ff;
+  color: #2339ff;
 }
 #blocMenu3 a {
   color: #0887fb;
@@ -496,6 +494,11 @@ ul {
 #blocMenu4 {
   background-color: #fdfffd;
   color: #55cd59;
+}
+#blocMenu4 .gradient_text {
+  background: linear-gradient(to right, #55cd59 0%, #91ff95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
@@ -607,6 +610,9 @@ ul {
   color: #c77412;
   font-weight: bold;
   font-size: 40px;
+  background: linear-gradient(to right, #c77412 0%, #a56799 70%, #6e4ccc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 @media all and (max-width: 460px) {
   #bloc_card_menu2 h1 {
@@ -670,8 +676,11 @@ ul {
   background-color: #edeffa;
 }
 #bloc_card_menu3 h1 {
-  color: #3247ff;
+  color: #2339ff;
   font-family: "Dancing Script", cursive;
+  background: linear-gradient(to right, #2339ff 0%, #2d97fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
   font-family: "Segoe Print", "Caveat";
@@ -686,7 +695,7 @@ ul {
 }
 
 #blocEntrée_menu3 .borderTitle::before, #blocEntrée_menu3 .borderTitle::after {
-  border-bottom-color: #3247ff;
+  border-bottom-color: #2339ff;
 }
 
 #blocPlat_menu3 .borderTitle::before, #blocPlat_menu3 .borderTitle::after {
@@ -703,6 +712,9 @@ ul {
 #bloc_card_menu4 h1 {
   color: #55cd59;
   font-family: "Kaushan Script", cursive;
+  background: linear-gradient(to right, #55cd59 0%, #91ff95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 #bloc_card_menu4 h2, #bloc_card_menu4 li {
   font-family: "Segoe Print", "Caveat";
@@ -744,7 +756,6 @@ article {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
   width: 65%;
-  height: 950px;
   align-self: center;
   margin: 5%;
   margin-top: 2%;

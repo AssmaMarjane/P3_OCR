@@ -1,6 +1,11 @@
 
 #blocMenu3{
     background-color: $color_background_menu3;
+    .gradient_text{
+        background: linear-gradient(to right, $color_title_menu3 0%, $color_gradient_menu3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     h2{
         font-family: $font_title_menu3 ;
         color: $color_title_menu3;
