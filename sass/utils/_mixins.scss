@@ -186,6 +186,7 @@
     width: 100%;
     align-self: center;
 }
+
 @mixin titlemain_rules {
     margin-bottom: 0%;
     margin-top: 5%;
@@ -212,18 +213,23 @@
     box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
     @media all and (max-width: 460px) {
         width: 93%;
-        height: 580px;
         margin: 3%;
     }
     @media (min-width: 460px) and (max-width: 580px){
         width: 85%;
-        height: 705px;
         margin: 3%;
     }
     @media all and (min-width: 580px) and (max-width: 800px){
         width: 80%;
-        height: 760px;
     }
+    #bloc_text_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 86%;
+        margin: 7%;
+    }
+
     .borderTitle{
         margin:auto;
         display:flex;
@@ -234,9 +240,8 @@
         content:'';
         border-bottom:5px solid;
         height:2px;
-        width:30%;
+        width:36%;
         display:block;
-        margin:3%;    
         @media all and (max-width: 460px) {
             border-bottom: 2px solid;
         }
@@ -244,6 +249,13 @@
             border-bottom: 3px solid;
         }
     
+    }
+    .borderTitle:before{
+        text-align: left;
+
+    }
+    .borderTitle:after{
+        text-align: right;
     }
 
     .underlineTitle{
@@ -271,7 +283,7 @@
     text-align: center;
     font-size: 50px ;
     font-weight: normal;
-    margin: 10%;
+    margin: 8%;
     @media all and (max-width: 460px) {
         font-size: 30px;
     }
@@ -285,11 +297,11 @@
     display: flex;
     position: relative;
     justify-content: center;
+    margin: 2%;
     font-size: medium;
-    width: 25%;
+    width: 28%;
     @media all and (max-width: 460px) {
         font-size: 13px;
-        width: 40%;
     }
     @media all and (min-width: 460px) and (max-width: 768px){
         font-size: small;
@@ -318,29 +330,37 @@
 @mixin list_text_menu{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    line-height: 2.5;
+    width: 100%;
+    line-height: 2;
     text-align: start;
     font-size: small;
     @media all and (max-width: 460px) {
-        font-size: 11px;
+        font-size: 12px;
         line-height:1.5 ;
     }
     @media (min-width: 460px) and (max-width: 580px){
-        line-height: 2.2;
-        font-size: x-small;
+        line-height: 1.7;
+        font-size: 13px;
     }
 
     @media all and (min-width: 580px) and (max-width: 768px){
         line-height: 1.7;
     }
+    .partieText{
+        width: 70%;
+        text-align: left;
+    }
+    .partiePrix{
+        width: 30%;
+        text-align: right;
+    }
 
 }
 
 @mixin ul_bloc_menu{
+    display: flex;
+    flex-direction: column;
     margin: 1%;
-    padding-left: 7%;
-    padding-right: 7%;
     @media all and (max-width: 460px) {
         padding-left: 1%;
         padding-right: 1%;
