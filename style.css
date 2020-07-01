@@ -390,14 +390,14 @@ li {
 }
 @media all and (max-width: 460px) {
   li {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.5;
   }
 }
 @media (min-width: 460px) and (max-width: 580px) {
   li {
     line-height: 1.7;
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media all and (min-width: 580px) and (max-width: 768px) {
@@ -423,9 +423,8 @@ ul {
 }
 @media all and (max-width: 460px) {
   ul {
-    width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 100%;
+    padding-left: 0;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
@@ -565,13 +564,9 @@ ul {
   content: "";
   background-color: #3d1319;
 }
-#bloc_card_menu1 ul {
-  padding: 0;
-  width: 100%;
-}
 @media all and (max-width: 460px) {
   #bloc_card_menu1 li {
-    font-size: small;
+    font-size: 14px;
   }
 }
 
