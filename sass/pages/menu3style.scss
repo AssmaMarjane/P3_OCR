@@ -7,7 +7,10 @@
         background: linear-gradient(to right, $color_title_menu3 0%, $color_gradient_menu3 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
+        @media all and (max-width: 460px) {
+            font-size: 34px;
+        }
+    
     }
     h2, li{
         font-family: $font_text_menu3;

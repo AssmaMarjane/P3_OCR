@@ -689,6 +689,11 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media all and (max-width: 460px) {
+  #bloc_card_menu3 h1 {
+    font-size: 34px;
+  }
+}
 #bloc_card_menu3 h2, #bloc_card_menu3 li {
   font-family: "Segoe Print", "Caveat";
   color: black;
