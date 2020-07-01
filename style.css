@@ -566,9 +566,6 @@ ul {
   background-color: #3d1319;
 }
 @media all and (max-width: 460px) {
-  #bloc_card_menu1 li {
-    font-size: 13px;
-  }
   #bloc_card_menu1 li .partieText {
     width: 83%;
     text-align: left;
