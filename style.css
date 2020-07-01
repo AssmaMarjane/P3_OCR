@@ -75,7 +75,6 @@ footer {
   width: 96%;
   padding-left: 2%;
   padding-right: 2%;
-  height: 50px;
   position: sticky;
   bottom: 0;
 }
@@ -92,11 +91,6 @@ footer .shakeLink:hover {
   footer .shakeLink {
     font-size: medium;
     margin-top: 5%;
-  }
-}
-@media all and (max-width: 768px) {
-  footer {
-    height: 37px;
   }
 }
 footer a {
@@ -180,7 +174,7 @@ nav p {
 
 .item_style {
   border: solid rgba(150, 107, 107, 0.027);
-  height: 400px;
+  height: 480px;
   width: 30%;
   margin: 2%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
