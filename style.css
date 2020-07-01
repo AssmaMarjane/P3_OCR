@@ -283,25 +283,19 @@ nav p {
 .bloc_card_style {
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
-  width: 65%;
   align-self: center;
+  width: 60%;
   margin: 5%;
-  margin-top: 2%;
+  padding: 3%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
 }
 @media all and (max-width: 460px) {
-  .bloc_card_style {
-    width: 93%;
-    margin: 3%;
-  }
-}
-@media (min-width: 460px) and (max-width: 580px) {
   .bloc_card_style {
     width: 85%;
     margin: 3%;
   }
 }
-@media all and (min-width: 580px) and (max-width: 800px) {
+@media all and (min-width: 460px) and (max-width: 760px) {
   .bloc_card_style {
     width: 80%;
   }
@@ -310,20 +304,20 @@ nav p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 86%;
-  margin: 7%;
+  width: 100%;
 }
 .bloc_card_style .borderTitle {
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  width: 100%;
 }
 .bloc_card_style .borderTitle:before, .bloc_card_style .borderTitle:after {
   content: "";
   border-bottom: 5px solid;
   height: 2px;
-  width: 36%;
+  width: 34%;
   display: block;
 }
 @media all and (max-width: 460px) {
@@ -379,9 +373,8 @@ nav p {
   display: flex;
   position: relative;
   justify-content: center;
-  margin: 2%;
   font-size: medium;
-  width: 28%;
+  width: 32%;
 }
 @media all and (max-width: 460px) {
   .bloc_card_style h2 {
@@ -398,9 +391,9 @@ li {
   display: flex;
   flex-direction: row;
   width: 100%;
-  line-height: 2;
+  line-height: 2.3;
   text-align: start;
-  font-size: small;
+  font-size: medium;
 }
 @media all and (max-width: 460px) {
   li {
@@ -420,29 +413,33 @@ li {
   }
 }
 li .partieText {
-  width: 70%;
+  width: 88%;
   text-align: left;
 }
 li .partiePrix {
-  width: 30%;
+  width: 12%;
   text-align: right;
 }
 
 ul {
   display: flex;
   flex-direction: column;
-  margin: 1%;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 @media all and (max-width: 460px) {
   ul {
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   ul {
-    padding-left: 3%;
-    padding-right: 3%;
+    width: 92%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }
 
@@ -528,10 +525,19 @@ ul {
 #bloc_card_menu1 {
   background-color: #fccfcf;
 }
+#bloc_card_menu1 #bloc_text_menu {
+  width: 92%;
+  margin: 4%;
+}
+@media all and (max-width: 460px) {
+  #bloc_card_menu1 #bloc_text_menu {
+    width: 98%;
+    margin: 1%;
+  }
+}
 #bloc_card_menu1 h1 {
   font-family: "Ma Shan Zheng", cursive;
-  margin-top: 0;
-  margin-bottom: 3%;
+  margin: 0;
 }
 #bloc_card_menu1 h1 span {
   font-family: "Devonshire", cursive;
@@ -539,19 +545,15 @@ ul {
 #bloc_card_menu1 i {
   font-size: 50px;
   color: #f5606a;
-  margin-bottom: 0;
-  margin-top: 5%;
 }
 @media all and (max-width: 460px) {
   #bloc_card_menu1 i {
     font-size: 20px;
-    margin-top: 1%;
   }
 }
 @media (min-width: 460px) and (max-width: 580px) {
   #bloc_card_menu1 i {
     font-size: 30px;
-    margin-top: 4%;
   }
 }
 @media all and (min-width: 580px) and (max-width: 800px) {
@@ -566,19 +568,17 @@ ul {
   border-bottom-color: #3d1319;
   font-family: "Segoe Print", "Caveat";
 }
-#bloc_card_menu1 .borderTitle::before {
-  margin-left: 7%;
-}
-#bloc_card_menu1 .borderTitle::after {
-  margin-right: 7%;
-}
 #bloc_card_menu1 .underlineTitle::before {
   content: "";
   background-color: #3d1319;
 }
+#bloc_card_menu1 ul {
+  padding: 0;
+  width: 100%;
+}
 @media all and (max-width: 460px) {
   #bloc_card_menu1 li {
-    font-size: x-small;
+    font-size: small;
   }
 }
 
@@ -642,18 +642,14 @@ ul {
   }
 }
 #bloc_card_menu2 h2 {
-  font-size: large;
-  width: 33%;
+  font-size: medium;
+  width: 40%;
 }
-@media all and (max-width: 460px) {
-  #bloc_card_menu2 h2 {
-    font-size: small;
-  }
+#bloc_card_menu2 .borderTitle::before, #bloc_card_menu2 .borderTitle::after {
+  width: 30%;
 }
-@media all and (min-width: 460px) and (max-width: 768px) {
-  #bloc_card_menu2 h2 {
-    font-size: medium;
-  }
+#bloc_card_menu2 li {
+  font-size: small;
 }
 #bloc_card_menu2 h2, #bloc_card_menu2 li {
   font-family: "Taviraj", "Merriweather", serif;
@@ -751,46 +747,26 @@ ul {
   width: 100%;
   align-self: center;
 }
-@media all and (max-width: 330px) {
-  .page_mentions {
-    height: 1240px;
-  }
-}
-@media all and (min-width: 330px) and (min-width: 640px) {
-  .page_mentions {
-    height: 1260px;
-  }
-}
-@media all and (min-width: 640px) and (max-width: 768px) {
-  .page_mentions {
-    height: 1281px;
-  }
-}
 
 article {
   background-color: #579c87;
   color: #fdcb46;
   border: solid rgba(150, 107, 107, 0.027);
   text-align: center;
-  width: 65%;
   align-self: center;
+  width: 60%;
   margin: 5%;
-  margin-top: 2%;
+  padding: 3%;
   box-shadow: rgba(10, 10, 10, 0.15) 2px 2px 10px 5px;
+  padding: 7%;
 }
 @media all and (max-width: 460px) {
-  article {
-    width: 93%;
-    margin: 3%;
-  }
-}
-@media (min-width: 460px) and (max-width: 580px) {
   article {
     width: 85%;
     margin: 3%;
   }
 }
-@media all and (min-width: 580px) and (max-width: 800px) {
+@media all and (min-width: 460px) and (max-width: 760px) {
   article {
     width: 80%;
   }
@@ -799,20 +775,20 @@ article #bloc_text_menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 86%;
-  margin: 7%;
+  width: 100%;
 }
 article .borderTitle {
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  width: 100%;
 }
 article .borderTitle:before, article .borderTitle:after {
   content: "";
   border-bottom: 5px solid;
   height: 2px;
-  width: 36%;
+  width: 34%;
   display: block;
 }
 @media all and (max-width: 460px) {
@@ -848,25 +824,16 @@ article .underlineTitle:hover::before {
   right: auto;
   width: 100%;
 }
-@media all and (max-width: 460px) {
-  article {
-    height: 620px;
-  }
-}
 article h1 {
-  font-size: large;
-  margin-bottom: 5%;
+  font-size: x-large;
+  margin: 5%;
 }
 article h2 {
-  font-size: smaller;
+  font-size: medium;
 }
 article p {
   font-size: small;
-}
-@media all and (max-width: 460px) {
-  article p {
-    font-size: x-small;
-  }
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */

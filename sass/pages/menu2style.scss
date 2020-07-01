@@ -19,16 +19,15 @@
         
     }
     h2{
-        font-size: large;
-        width: 33%;
+        font-size: medium;
+        width: 40%;
+    }
+    .borderTitle::before, .borderTitle::after{
+        width:30%;
     
-        @media all and (max-width: 460px){
-            font-size: small;
-        }
-        @media all and (min-width: 460px) and (max-width: 768px){
-            font-size: medium;
-        }
-    
+    }
+    li{
+        font-size: small;
     }
     h2, li{
         font-family: $font_text_menu2;
@@ -66,8 +65,5 @@
             content: '';
             background-color: $color_text_dessertmenu2;
         }
-    
-    
-    } 
-   
+    }   
 }

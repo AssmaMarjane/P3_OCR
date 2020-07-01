@@ -2,11 +2,18 @@
 #bloc_card_menu1{
     background-color: $color_background_menu1;
    // width: 40%;height: 670px;
-    
+   #bloc_text_menu {
+        width: 92%;
+        margin: 4%;
+        @media all and (max-width: 460px) {
+            width: 98%;
+            margin: 1%; 
+        }
+
+    }
     h1{
         font-family: $font_title_menu1;
-        margin-top: 0;
-        margin-bottom: 3%;
+        margin: 0;
         span{
             font-family: $font_span_menu1;
         }
@@ -14,19 +21,15 @@
     i{
     font-size: 50px;
     color: $color_picto_menu1;
-    margin-bottom: 0;
-    margin-top: 5%; //picto top
     @media all and (max-width: 460px) {
-        font-size: 20px;
-        margin-top: 1%;
-    }
+            font-size: 20px;
+        }
     @media (min-width: 460px) and (max-width: 580px){
-        font-size: 30px;
-        margin-top: 4%;
-    }
+            font-size: 30px;
+        }
     @media all and (min-width: 580px) and (max-width: 800px){
-        font-size: 40px;
-    }
+         font-size: 40px;
+        }
 
     }
     h2, li{
@@ -35,20 +38,19 @@
     .borderTitle::before, .borderTitle::after{
         border-bottom-color: $color_text_menu1;
         font-family: $font_text_menu1;
-    }
-    .borderTitle::before{
-        margin-left: 7%;
-    }
-    .borderTitle::after{
-        margin-right: 7%;
+    
     }
     .underlineTitle::before{
         content: '';
         background-color: $color_text_menu1;
     }
+    ul{
+        padding: 0;
+        width: 100%;
+    }
     li{
         @media all and (max-width: 460px) {
-            font-size: x-small;
+            font-size: small;
         }
         
     }

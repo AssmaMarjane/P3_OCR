@@ -1,36 +1,22 @@
 .page_mentions{
     @include mainPage_rules ;
-    @media all and (max-width: 330px) {
-        height: 1240px;
-    }
-    @media all and (min-width: 330px) and (min-width: 640px) {
-        height: 1260px;
-    }
-
-    @media all and (min-width: 640px) and (max-width: 768px){
-        height: 1281px;
-    }
 
 }
 
 article {
     @include headfoot_rules;
-    @include bloc_card_menu;  
-    @media all and (max-width: 460px) {
-        height: 620px;
-    }
+    @include bloc_card_menu; 
+    padding: 7%; 
     h1{
-        font-size: large;
-        margin-bottom: 5%;
+        font-size: x-large;
+        margin: 5%;
     }
     h2{
-        font-size: smaller;
+        font-size: medium;
 
     }
     p{
     font-size: small;
-        @media all and (max-width: 460px) {
-            font-size: x-small;
-        }
+    text-align: justify;
     }
 }
