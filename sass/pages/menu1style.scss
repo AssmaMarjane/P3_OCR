@@ -47,6 +47,15 @@
     li{
         @media all and (max-width: 460px) {
             font-size: 14px;
+            .partieText{
+                width: 83%;
+                text-align: left;
+            }
+            .partiePrix{
+                width: 17%;
+                text-align: right;
+            }
+        
         }
         
     }
