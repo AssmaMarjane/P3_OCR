@@ -567,7 +567,7 @@ ul {
 }
 @media all and (max-width: 460px) {
   #bloc_card_menu1 li {
-    font-size: 14px;
+    font-size: 13px;
   }
   #bloc_card_menu1 li .partieText {
     width: 83%;
