@@ -142,6 +142,14 @@
     padding-right: 25px;
     margin: 2%;
     border-radius: 10px;
+    @media all and (max-width: 460px) {
+        width: 105px;
+    }
+    @media all and (min-width: 460px) and (max-width: 768px){
+        width: 130px;
+    }
+}
+
     .textLoading:after {
         display: inline-block;
         animation: dott steps(1,end) 1s infinite;
@@ -157,13 +165,6 @@
             font-size: medium;
         }
     }
-    @media all and (max-width: 460px) {
-        width: 45%;
-    }
-    @media all and (min-width: 460px) and (max-width: 768px){
-        width: 38%;
-    }
-}
 
 //a partir de cette ligne ne concerne que les pages menus
 @mixin page_rules{
@@ -233,6 +234,7 @@
         display:block;
         @media all and (max-width: 460px) {
             border-bottom: 2px solid;
+            width: 25%;
         }
         @media all and (min-width: 460px) and (max-width: 768px){
             border-bottom: 3px solid;
@@ -289,13 +291,9 @@
     font-size: medium;
     width: 32%;
     @media all and (max-width: 460px) {
-        font-size: 13px;
+        width: 50%;
     }
-    @media all and (min-width: 460px) and (max-width: 768px){
-        font-size: small;
-    }
-    
-        
+
 }
 
 
@@ -323,17 +321,13 @@
     text-align: start;
     font-size: medium;
     @media all and (max-width: 460px) {
-        font-size: 13px;
+        font-size: smaller;
         line-height:1.5 ;
     }
-    @media (min-width: 460px) and (max-width: 580px){
+    @media (min-width: 460px) and (max-width: 768px){
         line-height: 1.7;
-        font-size: 15px;
     }
 
-    @media all and (min-width: 580px) and (max-width: 768px){
-        line-height: 1.7;
-    }
     .partieText{
         width: 88%;
         text-align: left;

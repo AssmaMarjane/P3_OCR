@@ -1,4 +1,25 @@
 @charset "UTF-8";
+.textLoading:after {
+  display: inline-block;
+  animation: dott steps(1, end) 1s infinite;
+  content: "";
+}
+
+p {
+  font-size: larger;
+  font-family: "Noto Sans", sans-serif;
+}
+@media all and (max-width: 460px) {
+  p {
+    font-size: small;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  p {
+    font-size: medium;
+  }
+}
+
 @keyframes dott {
   0% {
     content: "";
@@ -142,33 +163,14 @@ nav {
   background-color: #579c87;
   color: #fdcb46;
 }
-nav .textLoading:after {
-  display: inline-block;
-  animation: dott steps(1, end) 1s infinite;
-  content: "";
-}
-nav p {
-  font-size: larger;
-  font-family: "Noto Sans", sans-serif;
-}
-@media all and (max-width: 460px) {
-  nav p {
-    font-size: small;
-  }
-}
-@media all and (min-width: 460px) and (max-width: 768px) {
-  nav p {
-    font-size: medium;
-  }
-}
 @media all and (max-width: 460px) {
   nav {
-    width: 45%;
+    width: 105px;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
   nav {
-    width: 38%;
+    width: 130px;
   }
 }
 
@@ -316,6 +318,7 @@ nav p {
 @media all and (max-width: 460px) {
   .bloc_card_style .borderTitle:before, .bloc_card_style .borderTitle:after {
     border-bottom: 2px solid;
+    width: 25%;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
@@ -371,12 +374,7 @@ nav p {
 }
 @media all and (max-width: 460px) {
   .bloc_card_style h2 {
-    font-size: 13px;
-  }
-}
-@media all and (min-width: 460px) and (max-width: 768px) {
-  .bloc_card_style h2 {
-    font-size: small;
+    width: 50%;
   }
 }
 
@@ -390,17 +388,11 @@ li {
 }
 @media all and (max-width: 460px) {
   li {
-    font-size: 13px;
+    font-size: smaller;
     line-height: 1.5;
   }
 }
-@media (min-width: 460px) and (max-width: 580px) {
-  li {
-    line-height: 1.7;
-    font-size: 15px;
-  }
-}
-@media all and (min-width: 580px) and (max-width: 768px) {
+@media (min-width: 460px) and (max-width: 768px) {
   li {
     line-height: 1.7;
   }
@@ -636,7 +628,7 @@ ul {
   }
 }
 #bloc_card_menu2 h2 {
-  font-size: medium;
+  font-size: 13px;
   width: 40%;
 }
 #bloc_card_menu2 .borderTitle::before, #bloc_card_menu2 .borderTitle::after {
@@ -681,6 +673,12 @@ ul {
 
 #bloc_card_menu3 {
   background-color: #f3f5fb;
+}
+@media all and (max-width: 460px) {
+  #bloc_card_menu3 {
+    width: 80%;
+    margin: 10%;
+  }
 }
 #bloc_card_menu3 h1 {
   color: #2339ff;
@@ -792,6 +790,7 @@ article .borderTitle:before, article .borderTitle:after {
 @media all and (max-width: 460px) {
   article .borderTitle:before, article .borderTitle:after {
     border-bottom: 2px solid;
+    width: 25%;
   }
 }
 @media all and (min-width: 460px) and (max-width: 768px) {
