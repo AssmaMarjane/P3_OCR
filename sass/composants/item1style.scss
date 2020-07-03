@@ -2,12 +2,6 @@
 #blocMenu1{
     background-color: $color_background_menu1;
     color: $color_text_menu1;
-    p{
-        margin: 0;
-        color: $color_text_menu1;
-        font-family: $font_text_menu1;
-        font-weight: bold ;
-    }
     i{
         color: $color_picto_menu1 ;
         text-decoration:solid ;
@@ -21,6 +15,12 @@
             font-family: $font_span_menu1;
         }
     }
+    p{
+        margin: 0;
+        font-family: $font_text_menu1;
+        font-weight: bold ;
+    }
+
 }
 
 

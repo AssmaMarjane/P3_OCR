@@ -432,9 +432,6 @@ ul {
   background-color: #fccfcf;
   color: #3d1319;
 }
-#blocMenu1 p {
-  margin: 0;
-}
 #blocMenu1 i {
   color: #f5606a;
   text-decoration: solid;
@@ -448,15 +445,14 @@ ul {
 #blocMenu1 h2 span {
   font-family: "Devonshire", cursive;
 }
-#blocMenu1 a {
-  color: #3d1319;
+#blocMenu1 p {
+  margin: 0;
   font-family: "Segoe Print", "Caveat";
   font-weight: bold;
 }
 
 #blocMenu2 {
   background-color: #fce9fa;
-  color: #c77412;
 }
 #blocMenu2 .gradient_text {
   background: linear-gradient(to right, #c77412 0%, #a56799 70%, #6e4ccc 100%);
@@ -467,7 +463,7 @@ ul {
   font-family: "Croissant One", cursive;
   font-size: larger;
 }
-#blocMenu2 a {
+#blocMenu2 p {
   color: #c77412;
   font-family: "Taviraj", "Merriweather", serif;
   font-weight: bold;
@@ -485,14 +481,13 @@ ul {
   font-family: "Dancing Script", cursive;
   color: #2339ff;
 }
-#blocMenu3 a {
+#blocMenu3 p {
   color: #0887fb;
   font-family: "Segoe Print", "Caveat";
 }
 
 #blocMenu4 {
   background-color: #fdfffd;
-  color: #55cd59;
 }
 #blocMenu4 .gradient_text {
   background: linear-gradient(to right, #55cd59 0%, #91ff95 100%);
@@ -502,7 +497,7 @@ ul {
 #blocMenu4 h2 {
   font-family: "Kaushan Script", cursive;
 }
-#blocMenu4 a {
+#blocMenu4 p {
   color: #55cd59;
   font-family: "Segoe Print", "Caveat";
 }
