@@ -1,7 +1,9 @@
 
 #blocMenu1{
     background-color: $color_background_menu1;
-    color: $color_text_menu1;
+    h2,p{
+        color: $color_text_menu1;
+    }
     i{
         color: $color_picto_menu1 ;
         text-decoration:solid ;

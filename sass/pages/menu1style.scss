@@ -44,6 +44,12 @@
         content: '';
         background-color: $color_text_menu1;
     }
+    ul{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     li{
         @media all and (max-width: 460px) {
             .partieText{
@@ -57,7 +63,6 @@
         
         }
     }
-
 }
 
 #blocTitle_bottom{

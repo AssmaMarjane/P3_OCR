@@ -148,8 +148,6 @@
     @media all and (min-width: 460px) and (max-width: 768px){
         width: 130px;
     }
-}
-
     .textLoading:after {
         display: inline-block;
         animation: dott steps(1,end) 1s infinite;
@@ -165,7 +163,7 @@
             font-size: medium;
         }
     }
-
+}
 //a partir de cette ligne ne concerne que les pages menus
 @mixin page_rules{
     display: flex;

@@ -1,25 +1,4 @@
 @charset "UTF-8";
-.textLoading:after {
-  display: inline-block;
-  animation: dott steps(1, end) 1s infinite;
-  content: "";
-}
-
-p {
-  font-size: larger;
-  font-family: "Noto Sans", sans-serif;
-}
-@media all and (max-width: 460px) {
-  p {
-    font-size: small;
-  }
-}
-@media all and (min-width: 460px) and (max-width: 768px) {
-  p {
-    font-size: medium;
-  }
-}
-
 @keyframes dott {
   0% {
     content: "";
@@ -171,6 +150,25 @@ nav {
 @media all and (min-width: 460px) and (max-width: 768px) {
   nav {
     width: 130px;
+  }
+}
+nav .textLoading:after {
+  display: inline-block;
+  animation: dott steps(1, end) 1s infinite;
+  content: "";
+}
+nav p {
+  font-size: larger;
+  font-family: "Noto Sans", sans-serif;
+}
+@media all and (max-width: 460px) {
+  nav p {
+    font-size: small;
+  }
+}
+@media all and (min-width: 460px) and (max-width: 768px) {
+  nav p {
+    font-size: medium;
   }
 }
 
@@ -430,6 +428,8 @@ ul {
 
 #blocMenu1 {
   background-color: #fccfcf;
+}
+#blocMenu1 h2, #blocMenu1 p {
   color: #3d1319;
 }
 #blocMenu1 i {
@@ -551,6 +551,11 @@ ul {
 #bloc_card_menu1 .underlineTitle::before {
   content: "";
   background-color: #3d1319;
+}
+#bloc_card_menu1 ul {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 @media all and (max-width: 460px) {
   #bloc_card_menu1 li .partieText {
