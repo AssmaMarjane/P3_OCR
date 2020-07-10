@@ -18,11 +18,11 @@
         animation-iteration-count: infinite;
     }
     .shakeLink{
-        @media all and (max-width: 460px) {
+        @media all and (max-width: $mobile) {
             font-size: smaller;
 
         }
-        @media all and (min-width: 460px) and (max-width: 768px){
+        @media all and (min-width: $mobile) and (max-width: 768px){
             font-size: medium;
             margin-top: 5%;
         }
